@@ -1,0 +1,28 @@
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.exe
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.pdb
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.MainFrm.resources
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.Properties.Resources.resources
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.csproj.GenerateResource.Cache
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.exe
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.pdb
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\halcondotnet.dll
+C:\Users\Think\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\halcondotnet.xml
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.exe
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.pdb
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.exe
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.pdb
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\halcondotnet.dll
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\bin\Debug\halcondotnet.xml
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.MainFrm.resources
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.csproj.GenerateResource.Cache
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.exe
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.pdb
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.csprojResolveAssemblyReference.cache
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.MainFrm.resources
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.Properties.Resources.resources
+D:\C# Demo\WindowsJinKo\WindowsJinKo\obj\x86\Debug\WindowsJinKo.csproj.GenerateResource.Cache
+D:\C# Demo\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.exe
+D:\C# Demo\WindowsJinKo\WindowsJinKo\bin\Debug\WindowsJinKo.pdb
+D:\C# Demo\WindowsJinKo\WindowsJinKo\bin\Debug\halcondotnet.xml

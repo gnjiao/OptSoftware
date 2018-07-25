@@ -1,0 +1,166 @@
+时间:   2018-07-23 11:55:35:843   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:38:11:958   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:38:15:005   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:38:17:646   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:38:19:975   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:45:41:001   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-23 12:59:04:288   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #5: Operator failed (FAIL) in operator get_mposition
+时间:   2018-07-23 13:30:11:210   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #5: Operator failed (FAIL) in operator get_mposition
+时间:   2018-07-23 13:48:50:870   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:50:901   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:51:198   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:51:854   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:114   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:129   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:426   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:442   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:739   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 13:48:53:770   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:56:57:590   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:56:57:621   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:57:00:871   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:57:00:902   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:57:21:915   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:57:26:781   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 14:57:26:812   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:15:099   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:15:131   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:15:474   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:15:506   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:21:573   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:28:749   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:187   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:218   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:552   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:584   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:927   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:29:943   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:30:287   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:34:803   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:34:834   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:35:178   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:35:193   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:35:506   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 16:58:35:537   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:36:975   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:37:006   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:41:608   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:41:639   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:41:951   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-23 17:00:41:983   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:16:10:614   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:16:10:631   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:16:13:721   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:20:12:871   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:20:12:918   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:53:34:843   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:53:35:773   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 10:53:35:822   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:27:624   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:27:647   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:28:358   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:28:391   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:29:161   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:29:848   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 11:17:34:610   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:29:24:779   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:29:24:810   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:14:329   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:344   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:375   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:397   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:413   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:428   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:444   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:460   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1302: Wrong value of control parameter: 2 in operator get_grayval
+时间:   2018-07-24 13:49:14:491   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1301: Wrong value of control parameter: 1 in operator get_grayval
+时间:   2018-07-24 13:49:14:497   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #1301: Wrong value of control parameter: 1 in operator get_grayval
+时间:   2018-07-24 13:49:16:915   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:20:920   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:22:655   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4060: Image data management: access to deleted region in operator count_channels
+时间:   2018-07-24 13:49:22:687   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:22:708   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:24:656   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 13:49:29:489   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4060: Image data management: access to deleted region in operator count_channels
+时间:   2018-07-24 13:49:29:526   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 14:45:37:790   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:46:19:211   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4060: Image data management: access to deleted region in operator count_channels
+时间:   2018-07-24 14:46:19:232   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 14:56:40:736   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:41:684   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:42:653   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:45:741   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:46:807   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:48:360   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:49:908   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:51:763   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:54:913   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 14:56:57:469   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 16:41:02:003   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:02:034   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:13:469   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:13:500   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:14:238   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:14:253   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:15:086   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:41:15:118   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:04:927   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:12:969   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:13:733   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:13:755   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:14:457   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:44:14:488   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:16:626   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:16:673   异常信息:   单击右键显示全图 异常-> 未将对象引用设置到对象的实例。
+时间:   2018-07-24 16:59:19:981   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4060: Image data management: access to deleted region in operator count_channels
+时间:   2018-07-24 16:59:19:997   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:20:536   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:21:638   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:23:928   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:24:608   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:24:645   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:25:347   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:25:378   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:26:049   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:26:096   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:52:587   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4060: Image data management: access to deleted region in operator count_channels
+时间:   2018-07-24 16:59:52:617   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:53:295   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 16:59:53:326   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:39:047   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #5: Operator failed (FAIL) in operator get_mposition
+时间:   2018-07-24 17:01:40:296   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:40:328   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:40:882   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:40:914   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:42:032   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:42:053   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:45:461   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:01:45:477   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:47:970   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:48:002   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:48:525   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:48:557   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:49:089   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:49:126   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:49:659   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:49:675   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:50:292   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:50:327   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:52:349   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:52:380   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:53:815   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:55:171   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:57:894   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:58:580   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:02:59:983   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:03:00:632   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:03:01:318   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:03:31:235   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:04:20:988   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:04:21:010   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:04:21:707   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:04:21:726   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:05:47:937   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:05:47:969   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:05:58:149   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
+时间:   2018-07-24 17:05:58:186   异常信息:   获取图像灰度值和坐标位置 异常-> HALCON error #4056: Image data management: object-ID is NULL (0) in operator count_channels
