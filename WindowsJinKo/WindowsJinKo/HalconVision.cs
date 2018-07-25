@@ -326,9 +326,36 @@ namespace WindowsJinKo
                }
 
                //获取当前程序目录
-               //string TimeNow=DateTime.Now.ToString("yyyy-MM-dd HH:MM:ss");
-               writeCSV(RunPath, hv_Error, hv_Row, hv_Column, false);
+               string TimeNow=DateTime.Now.ToString("yyyy-MM-dd HH:MM:ss:ff");
+               
+               //模板匹配分数 类型转换
+               double ModelScore = hv_Error;
+               double Score = Convert.ToDouble(ModelScore.ToString("0.000"));
 
+               //模板匹配后Y坐标 类型转换
+               double ModelRow = hv_Row;
+               double Row = Convert.ToDouble(ModelRow.ToString("0.000"));
+
+               //模板匹配后X坐标 类型转换
+               double ModelColumn = hv_Column;
+               double Column = Convert.ToDouble(ModelColumn.ToString("0.000"));
+
+               //模板匹配时间 类型转换
+               double ModelMatchTime = (hv_S2 - hv_S1) * 1000;
+               string MatchTime = ModelMatchTime.ToString("0.000");
+
+               //算法运行时间 类型转换
+               double AlgorithmRunTime = (hv_S3 - hv_S2) * 1000;
+               string AlgorithmTime = AlgorithmRunTime.ToString("0.000");
+
+               //图像格式转换时间 类型转换
+               double HalconToBitmap = (hv_S4 - hv_S3) * 1000;
+               string HalconBitmap = HalconToBitmap.ToString("0.000");
+
+               //把运行参数保存到CSV文件中去
+               writeCSV(RunPath, TimeNow, Score, Row, Column, MatchTime, AlgorithmTime, HalconBitmap, true);
+               
+               //显示箭头
                HOperatorSet.DispArrow(hv_WindowHandle, hv_Row, hv_Column, hv_Row - ((hv_Angle.TupleCos()
                    ) * 50), hv_Column - ((hv_Angle.TupleSin()) * 50), 15);
 
@@ -1830,13 +1857,15 @@ namespace WindowsJinKo
                 PixelFormat.Format16bppArgb1555, PixelFormat.Format1bppIndexed, PixelFormat.Format4bppIndexed,
                 PixelFormat.Format8bppIndexed  };
 
-
        //保存参数记录
-       public void writeCSV(string path, double id, double data1, double data2, bool flag)
+       public void writeCSV(string path,string Time, double id, double data1, double data2, 
+                                      string str1, string str2, string str3, bool flag)
        {
            lock (this)
            {
-               string filePath = string.Format(" {0}\\{1}.csv", path, DateTime.Now.ToString("yyyy-MM-dd"));
+               //获取当前程序目录
+               string TimeNow = DateTime.Now.ToString("yyyyMMdd");
+               string filePath = path + "模板匹配-"+TimeNow+".CSV";
                Console.WriteLine(filePath);
 
                if (!System.IO.File.Exists(filePath))//文件不存在时,创建新文件,并写入文件标题
@@ -1847,8 +1876,7 @@ namespace WindowsJinKo
                    StreamWriter sw = new StreamWriter(fs);
                    //创建数据对象
                    StringBuilder sb = new StringBuilder();
-                   //sb.Append("ID").Append(",").Append("Data1").Append(",").Append("Data2").Append(",").Append("Flag");
-                   sb.Append("模板匹配度").Append(",").Append("Y坐标").Append(",").Append("X坐标").Append(",").Append("Flag");
+                   sb.Append("RunTime").Append(",").Append("ModelScore").Append(",").Append("ModelRow").Append(",").Append("ModelColumn").Append(",").Append("MatchTime").Append(",").Append("AlgoriTime").Append(",").Append("BitmapTime").Append(",").Append("Flag");
                    //把标题内容写入到文件流中
                    sw.WriteLine(sb);
                    sw.Flush();
@@ -1860,7 +1888,7 @@ namespace WindowsJinKo
                StreamWriter msw = new StreamWriter(filePath, true, Encoding.Default);
                //创建数据对象
                StringBuilder msb = new StringBuilder();
-               msb.Append(id).Append(",").Append(data1).Append(",").Append(data2).Append(",").Append(flag);
+               msb.Append(Time).Append(",").Append(id).Append(",").Append(data1).Append(",").Append(data2).Append(",").Append(str1).Append(",").Append(str2).Append(",").Append(str3).Append(",").Append(flag);
 
                //把数据内容写入文件中
                msw.WriteLine(msb);
@@ -1868,8 +1896,7 @@ namespace WindowsJinKo
                msw.Close();
            }
        }
-
-                                                    
+                                            
 
     }
 }

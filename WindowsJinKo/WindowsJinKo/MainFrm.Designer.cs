@@ -128,7 +128,7 @@
             this.tcSet.Margin = new System.Windows.Forms.Padding(4);
             this.tcSet.Name = "tcSet";
             this.tcSet.SelectedIndex = 0;
-            this.tcSet.Size = new System.Drawing.Size(424, 490);
+            this.tcSet.Size = new System.Drawing.Size(406, 304);
             this.tcSet.TabIndex = 0;
             // 
             // tpRun
@@ -203,7 +203,7 @@
             this.tpModel.Margin = new System.Windows.Forms.Padding(4);
             this.tpModel.Name = "tpModel";
             this.tpModel.Padding = new System.Windows.Forms.Padding(4);
-            this.tpModel.Size = new System.Drawing.Size(416, 458);
+            this.tpModel.Size = new System.Drawing.Size(398, 272);
             this.tpModel.TabIndex = 1;
             this.tpModel.Text = "模板创建";
             this.tpModel.UseVisualStyleBackColor = true;
@@ -235,7 +235,7 @@
             this.groupBox3.Controls.Add(this.nudRectDown);
             this.groupBox3.Location = new System.Drawing.Point(6, 237);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(403, 213);
+            this.groupBox3.Size = new System.Drawing.Size(403, 27);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "焊点位置";
@@ -767,7 +767,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(861, 762);
+            this.groupBox1.Size = new System.Drawing.Size(843, 576);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "显示窗口";
@@ -779,10 +779,10 @@
             this.tsslGray,
             this.toolStripStatusLabel1,
             this.tsslPath});
-            this.statusStrip.Location = new System.Drawing.Point(4, 729);
+            this.statusStrip.Location = new System.Drawing.Point(4, 543);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
-            this.statusStrip.Size = new System.Drawing.Size(853, 29);
+            this.statusStrip.Size = new System.Drawing.Size(835, 29);
             this.statusStrip.TabIndex = 1;
             this.statusStrip.Text = "statusStrip1";
             // 
@@ -819,9 +819,9 @@
             this.hWindowMainID.Location = new System.Drawing.Point(4, 25);
             this.hWindowMainID.Margin = new System.Windows.Forms.Padding(4);
             this.hWindowMainID.Name = "hWindowMainID";
-            this.hWindowMainID.Size = new System.Drawing.Size(853, 733);
+            this.hWindowMainID.Size = new System.Drawing.Size(835, 547);
             this.hWindowMainID.TabIndex = 0;
-            this.hWindowMainID.WindowSize = new System.Drawing.Size(853, 733);
+            this.hWindowMainID.WindowSize = new System.Drawing.Size(835, 547);
             this.hWindowMainID.HMouseMove += new HalconDotNet.HMouseEventHandler(this.hWindowMainID_HMouseMove);
             this.hWindowMainID.HMouseDown += new HalconDotNet.HMouseEventHandler(this.hWindowMainID_HMouseDown);
             this.hWindowMainID.HMouseWheel += new HalconDotNet.HMouseEventHandler(this.hWindowMainID_HMouseWheel);
@@ -887,7 +887,6 @@
             this.btnLog.TabIndex = 406;
             this.btnLog.UseVisualStyleBackColor = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
-            //this.btnLog.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnLog_KeyDown);
             // 
             // btnDelete
             // 
@@ -999,7 +998,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1290, 766);
+            this.ClientSize = new System.Drawing.Size(1272, 580);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tcSet);

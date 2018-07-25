@@ -229,7 +229,7 @@ namespace WindowsJinKo
             HTuple hv_Row1 = new HTuple(), hv_Column1 = new HTuple();
             HTuple hv_Row2 = new HTuple(), hv_Column2 = new HTuple();
             HTuple hv_Phi1 = new HTuple();
-            HTuple hv_S2 = null, hv_S = null, hv_S1 = null;
+            HTuple  hv_S1 = null;
             HOperatorSet.GenEmptyObj(out ho_ImageAffin);
             HOperatorSet.GenEmptyObj(out ho_ImageReduced);
             HOperatorSet.GenEmptyObj(out ho_Shape);
