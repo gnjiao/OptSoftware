@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="12.0">
+<procedure name="main">
+<interface/>
+<body>
+<c></c>
+<l>dev_close_window ()</l>
+<l>close_all_framegrabbers ()</l>
+<c></c>
+<c></c>
+<l>ImageName := 'D:/A01 文件备份/2018年1月31日（参照图片）/焊前侧面识别/OK/'</l>
+<l>* ImageName := 'C:/C01 文件备份/2018年1月21日/焊前侧面识别/OK/'</l>
+<c>*读取图像</c>
+<l>read_image (Image, ImageName+'001.jpg')</l>
+<l>* dev_set_color ('red')</l>
+<l>get_image_size (Image, Width, Height)</l>
+<c>*新建窗口</c>
+<l>dev_open_window (0, 0, Width*0.5, Height*0.5, 'black', WindowID)</l>
+<l>dev_resize_window_fit_image (Image, 0, 0, -1, -1)</l>
+<c>*设置字体大小</c>
+<l>set_display_font (WindowID, 21, 'mono', 'true', 'false')</l>
+<c></c>
+<l>dev_display (Image)</l>
+<c>*建立模板之前先做图像角度矫正</c>
+<l>rotate_image (Image, Image_Rotate_X, rad(-80), 'constant')</l>
+<c>*设置区域显示模式（轮廓）</c>
+<l>dev_set_draw ('margin')</l>
+<l>* stop ()</l>
+<c>*模板位置</c>
+<l>* draw_rectangle2 (WindowID, Row4, Column4, Phi1, Length11, Length21)</l>
+<l>* gen_rectangle2 (Rectangle, 1200, 1400, 0, 400, 150)</l>
+<l>gen_rectangle2 (Rectangle, 1400, 1365, 0, 450, 333)</l>
+<l>gauss_image (Image_Rotate_X, ImageGauss, 2.5)</l>
+<l>reduce_domain (ImageGauss, Rectangle, ImageReduced)</l>
+<l>crop_domain (ImageReduced, ImagePart)</l>
+<l>zoom_image_factor (ImagePart, ImageZoomed, 0.5, 0.5, 'constant')</l>
+<c>*建立模板</c>
+<l>pi := acos(0.0) * 2</l>
+<l>create_template_rot (ImageZoomed, 4, -pi, 2 * pi, pi / 45, 'sort', 'original', TemplateID)</l>
+<l>* stop ()</l>
+<l>list_files (ImageName, ['files','follow_links'], ImageFiles)</l>
+<l>tuple_regexp_select (ImageFiles, ['\\.(bmp|jpg)$','ignore_case'], ImageFiles)</l>
+<l>for _Index := 0 to |ImageFiles| - 1 by 1</l>
+<l>    read_image (Image, ImageFiles[_Index])</l>
+<c>    * Do something </c>
+<l>    dev_set_color ('red')</l>
+<c>    *创建一个通过时间的变量开始。</c>
+<l>*     count_seconds (S1)   </l>
+<l>    get_image_size (Image, Width, Height)   </l>
+<c>    *3X3模糊图像</c>
+<l>    dev_display (Image)</l>
+<l>    gauss_image (Image, ImageGauss1, 2.5)   </l>
+<l>*     gen_rectangle2 (Rectangle2, Height/2, Width/2, 0, 900, 700)</l>
+<l>*     reduce_domain (ImageGauss1, Rectangle2, ImageReduced2)</l>
+<l>    zoom_image_factor (ImageGauss1, ImageZoomed1, 0.5, 0.5, 'constant')</l>
+<c>    *匹配位置</c>
+<l>    best_match_rot_mg (ImageZoomed1, TemplateID, -pi, 2 * pi, 40, 'true', 4, Row, Column, Angle, Error)</l>
+<c>    </c>
+<l>    if (Error &lt;=30)</l>
+<c>        </c>
+<l>        dev_display (ImageGauss1)</l>
+<l>        row_2:=Row*2</l>
+<l>        column_2:=Column*2</l>
+<l>        disp_arrow (WindowID, Row*2, Column*2, row_2 - cos(Angle) * 50, column_2 - sin(Angle) * 50, 15)       </l>
+<l>*         if (Error)       </l>
+<l>*         endif</l>
+<l>        if (Angle&lt;-0.5 or Angle&gt;0.5)</l>
+<c>            *从点和角度计算一个僵化的仿射变换。</c>
+<l>            vector_angle_to_rigid (row_2, column_2, Angle, row_2, column_2, rad(180), HomMat2D)</l>
+<l>        else</l>
+<c>            *从点和角度计算一个僵化的仿射变换。</c>
+<l>            vector_angle_to_rigid (row_2, column_2, Angle, row_2, column_2, rad(0), HomMat2D)</l>
+<l>        endif</l>
+<l>        dev_display (ImageGauss1)</l>
+<l>        affine_trans_image (ImageGauss1, ImageGauss1_AffinTrans, HomMat2D, 'constant', 'false')</l>
+<c>        *</c>
+<l>*         zoom_image_factor (ImageGauss1_AffinTrans, ImageZoomed1, 0.5, 0.5, 'constant')</l>
+<c>        *匹配位置</c>
+<l>*         best_match_rot_mg (ImageZoomed1, TemplateID, -pi, 2 * pi, 40, 'true', 4, Row, Column, Angle, Error)</l>
+<l>        if (Error&lt;30)           </l>
+<l>*             affine_trans_region (EmptyObject, RegionAffineTrans, HomMat2D, 'nearest_neighbor')</l>
+<l>            dev_display (Image_Rotate_X)</l>
+<c>            *返回NG数量</c>
+<l>            error:=0</l>
+<l>*             gen_empty_obj (EO_error_region)</l>
+<c>            *起始位置R</c>
+<l>            Q_row:=-275+60</l>
+<c>            *起始位置W</c>
+<l>            Q_column:=-350+70</l>
+<c>            *每个焊接位置的间距</c>
+<l>            Q_HJ_spacing:=325</l>
+<c>            *每次偏移位置累加</c>
+<l>            Q_PY_temp_spacing:=Q_column+0</l>
+<l>            gen_empty_obj (EmptyObject)</l>
+<l>            for Index := 0 to 3 by 1</l>
+<l>*                 gen_rectangle2 (Rectangle1, 1100+(Q_row), 1200+(Q_PY_temp_spacing), 0, 100, 40)</l>
+<l>                gen_rectangle2 (Rectangle1, 1100+(Q_row), 1200+(Q_PY_temp_spacing), 0, 100, 40)</l>
+<l>                union2 (EmptyObject, Rectangle1, EmptyObject)</l>
+<l>                Q_PY_temp_spacing:=Q_PY_temp_spacing+Q_HJ_spacing </l>
+<l>*                 stop ()   </l>
+<l>            endfor</l>
+<l>            stop ()</l>
+<l>*             affine_trans_region (EmptyObject, EmptyObject2, HomMat2D, 'nearest_neighbor')</l>
+<l>*             stop ()           </l>
+<l>*             dev_display (ImageGauss1)</l>
+<l>*             dev_display (ImageGauss1_AffinTrans)</l>
+<l>*             dev_display (EmptyObject)</l>
+<l>            reduce_domain (ImageGauss1_AffinTrans, EmptyObject, ImageReduced1)</l>
+<l>            mean_image (ImageReduced1, ImageMean, 15, 15)</l>
+<l>            mean_image (ImageMean, ImageMean1, 200, 200)</l>
+<l>*             dev_display (ImageGauss1_AffinTrans)</l>
+<l>            dyn_threshold (ImageMean, ImageMean1, RegionDynThresh, 30, 'light')</l>
+<l>*             threshold (ImageReduced1, RegionDynThresh, 90, 120)            </l>
+<l>*             stop () </l>
+<l>            closing_circle (RegionDynThresh, RegionClosing, 3.5)</l>
+<l>            fill_up (RegionClosing, RegionFillUp)</l>
+<l>*             dev_display (ImageGauss1_AffinTrans)</l>
+<l>            erosion_rectangle1 (RegionFillUp, RegionErosion, 1, 5)</l>
+<l>            dilation_rectangle1 (RegionErosion, RegionDilation, 1, 5)</l>
+<l>*             dev_display (ImageGauss1_AffinTrans)</l>
+<l>            connection (RegionDilation, ConnectedRegions)</l>
+<l>*             smallest_rectangle1 (ConnectedRegions, Row1, Column1, Row2, Column2)</l>
+<l>*             dsadasd:=Row2-Row1</l>
+<l>*             dev_display (ImageGauss1)</l>
+<l>*             dev_display (ImageGauss1_AffinTrans)</l>
+<l>            select_shape (ConnectedRegions, SelectedRegions, ['area','height'], 'and', [1000,30], [9999999,99999])</l>
+<l>            count_obj (SelectedRegions, erNumber)</l>
+<l>            dev_display (ImageGauss1)</l>
+<l>            dev_display (ImageGauss1_AffinTrans)</l>
+<l>            if (erNumber&gt;0)</l>
+<l>                smallest_rectangle2 (SelectedRegions, Row3, Column3, Phi, Length1, Length2)</l>
+<l>                dev_set_color ('red')</l>
+<l>                dev_display (SelectedRegions)</l>
+<l>                for Index1 := 0 to |Row3|-1 by 1</l>
+<l>                    disp_message (WindowID, 'NG', 'image', \
+                                  Row3[Index1]-200, Column3[Index1], 'red', 'false')</l>
+<l>                  stop()   </l>
+<l>                endfor</l>
+<l>            endif   </l>
+<l>        else</l>
+<c>            *</c>
+<l>            disp_message (WindowID, '图像匹配失败！', 'image', \
+                          100, 100, 'red', 'false')  </l>
+<l>        endif  </l>
+<l>    endif  </l>
+<l>    stop ()</l>
+<l>endfor</l>
+<c></c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

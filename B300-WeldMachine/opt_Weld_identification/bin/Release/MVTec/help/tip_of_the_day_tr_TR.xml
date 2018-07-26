@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<rss version="2.0">
+ 
+  <channel>
+    <title>HALCON: Günün İpuçları</title>
+    <link>http://www.halcon.com/</link>
+    <description>HALCON kullanıcıları için İpuçları ve İncelikler.</description>
+    <language>tr-TR</language>
+    <copyright>MVTec Software GmbH</copyright>
+    <pubDate>Tue, 5 Mar 2013 2:43:19</pubDate>
+    <image>
+      <url>http://www.mvtec.com/headlines/halcon-home.gif</url>
+      <title>HALCON</title>
+      <link>http://www.halcon.com/</link>
+    </image>
+    
+        
+    <!-- General behavior -->
+    
+    <item>
+      <title>Pencerelerin Düzenlenmeleri</title>
+      <description>Üstüste çok fazla sayıda açık pencere bulunduğunda, en önemli dört Develop penceresini erişilebilir kılarak gözden geçirebilmek için 'Pencere -> Pencereleri Düzenle' seçiniz. 
+      </description>
+      <link>OrganizeWindows</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Araçlar Çubuğuna Taşı</title>
+      <description>Eğer ana pencerenin yüksekliği yeterli değilse, araçlar çubuğu öğelerini ana pencerede tepedeki sürükleme noktalarından tutup kenara sürükleyerek biraz daha yükseklik kazanabilirsiniz.
+      </description>
+      <link>HuiMainWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Tüm ekranı kullanın</title>
+      <description>Eğer ana pencere yüksekliği yeterli değilse, 'Pencere -> Tam ekran' seçerek pencere başlığını ortadan kaldırabilir ve yükseklik kazanabilirsiniz.
+      </description>
+      <link>FullScreen</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <item>
+      <title>Çıkış Konsolu</title>
+      <description>Durum çubuğunun mesaj alanına çift tıklayarak çıkış konsolunu açabilir ve HALCON alt-seviye hata mesajları da dahil olmak üzere tüm son mesajları görebilirsiniz. </description>
+      <link>HuiEventLogWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <!-- Working with the graphics window -->
+        
+    <item>
+      <title>Pencereyi Kaydet</title>
+      <description>Kullanılmakta olan pencerenin içeriğini görüntü olarak kaydetmek için, grafik pencerede sağ tuşa tıklayarak menüden 'Pencereyi Kaydet...' seçebilirsiniz.
+      </description>
+      <link>SaveWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Piksellerin İncelenmesi</title>
+      <description>Farenin imlecinde (cursor) bulunan pikselin gri değeri ve görüntü koordinatları durum çubuğunda, veya, Ctrl tuşuna bastığınızda da imlecin (cursor) kenarında gösterilir.
+      </description>
+      <link>HuiGraphicsWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+        
+    <item>
+      <title>Fare Keskinliği</title>
+      <description>'Görselleştirme -> Konum Keskinliği' kullanarak fare konumlarının keskinliklerini seçebilirsiniz. Tamsayı değerler kullanıldığı varsayılır (keskinlik 0).
+      </description>
+      <link>PositionPrecision</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>Etkileşimli POI (İlgi Alanı) Oluşturulması</title>
+      <description>Grafik pencere, ROI (İlgi Alanı)'ye erişim için bir araç çubuğu simgesi sunar. Orada, etkileşimli olarak ROI'ler (İlgi Alanları) ve XLD'ler çizebilir ve basit ölçüm işlemlerini gerçekleştirebilirsiniz.
+      </description>
+      <link>HuiRoiDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+            
+    <item>
+      <title>Görüntüleri Sürükle ve Bırak</title>
+      <description>Bir görüntüyü dosyadan açmak için dosya tarayıcısından sürükleyip ve HDevelop penceresine bırakmanız yeterlidir.
+      </description>
+      <link>DragImages</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the variable view -->
+    
+
+
+    <item>
+      <title>İşlev İncelemesi</title>
+      <description>Değişken penceresinde sayısal çokuzun üzerine sağ tuşla tıklayarak menüden 'İşlev olarak Çiz' seçebilirsiniz ve eşit aralıklı x değerlerine göre y ekseninde çokuz değerlerini çizdirip görebilirsiniz.
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Saçılmış Çizim</title>
+      <description>Değişken penceresinde eşit aralıklı bir sayısal çokuz çiftine sağ tuşla tıklayarak (çokuzları aynı anda seçebilmek için Ctrl tuşunu kullanınız) menüden 'X/Y çiftlerini çiz' seçebilir ve saçılma grafiğini çizebilirsiniz.
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Değişkenleri İncele</title>
+      <description>Değiken penceresinde bir kontrol değişkenine çift tıklayarak değişken-özellikte işlevlere sahip inceleme penceresi açabilirsiniz.
+      </description>
+      <link>InspectionWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>3B Nesne Modellerini İncele</title>
+      <description>Değişken penceresinde 3B nesne modelinin tutaçına çift tıklayarak model hakkında bilgi veren ve etkileşimli olarak gösterebileceğiniz bir inceleme penceresi açabilirsiniz.
+      </description>
+      <link>HuiVarModel3DInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Canlı Gösterim</title>
+      <description>Değişken penceresinde görüntü edinme aygıtının tutacına çift tıklayarak parametre bilgisi ve canlı gösterime izin veren bir inceleme penceresi açabilirsiniz.
+      </description>
+      <link>HuiVarFGInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Değişken içeriğini Kaydet</title>
+      <description>Değişken penceresinde bir değişken ismine sağ tuşla tıklayarak menüden 'Kaydet' seçebilir ve değişken içeriğini bir dosyaya kaydedebilirsiniz.
+      </description>
+      <link>HuiVarWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Değişken İçeriğini Kopyala</title>
+      <description>Değişken penceresinde bir kontrol değişkenine sağ tuşla tıklayarak menüden 'Kopyala' seçip (Ctrl+C) değişken içeriğini kopyalayabilir ve yapıştırabilirsiniz (Ctrl+V), örneğin, programda seçili bir satıra yapıştırmak gibi.
+      </description>
+      <link>HuiVarWnd/TableControlVars</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    
+            
+    
+    <!-- Developing a program -->
+    
+    <item>
+      <title>Programların Profillenmesi</title>
+      <description>'Yürüt -> Profil Yapıcıyı Etkinleştir' (Ctrl+Shift+Y,P) ile kod satırlarının çalıma zamanlarını inceleyebilir ve programınızdaki darboğazları bulabilirsiniz.
+      </description>
+      <link>HuiProgWnd/ProcProfilerLines</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>Yığt Çağrısı</title>
+      <description>'Yürüt -> İş parçacığı izlemesi / Yığıt Çağrısı' (Ctrl+Shift+Y,t) ile HDevelop iç çağrı yığıtında bulunan çağrılmış altprogramları gözlemleyebilirsiniz.
+      </description>
+      <link>CallStackWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>İşleç Önerileri</title>
+      <description>Program penceresinde işleç çağrısı seçerken, 'Öneriler' menüsü önceki, sonraki ve alternatif işleç çağrılarını gösterir.
+      </description>
+      <link>OperatorSuggestions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+         
+    <item>
+      <title>Bir Program satırı için Araç İpuçları</title>
+      <description>Fare imlecini program penceresinde işleç, altprogram veya değişken adı üserine getirdiğinizde, bazı bilgileri veren ipucunu gösterir, örneğin, bir değişkenin adı ve içeriğini (bir kısmı) gibi.
+      </description>
+      <link>HuiOptionsDlg/TabProgListing</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Altprogramların yeni sekmede açılması</title>
+      <description>Program penceresindeki açılır menüden bir altprogramı seçerken Btrl tuşuna basarsanız, atprogram yeni bir sekmede gösterilir.
+      </description>
+      <link>HuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Koddan Altprogram Oluşturulması</title>
+      <description>Eldeki koddan altprogram oluşturmak için, program listelemesinden ilgili kodu seçin ve yeni bir altprogram için altprogram iletişim kutucuğunu 'Altprogramlar -> Yeni Altprogram Oluştur...' (Ctrl+Shift+A,Y) kullanarak açın.
+      </description>
+      <link>HuiCreateProcDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Atprogramların KOpyalanması</title>
+      <description>Program penceresinde açık olan bir iç altprogramını kopylamak için, 'Altprogramlar -> Çoğalt...' seçin ve ilgili iletişim kutucuğuna bir isim girin.
+      </description>
+      <link>HuiProcInterfaceDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>Yardımcılar</title>
+      <description>'Yardımcılar' menüsünü kullanarak size genelde gerekebilecek görüntü edinme, kamera kalibrasyonu, eşleşme, 1B ölçüm, veya OCR gibi yardımcılara erişebilirsiniz.
+      </description>
+      <link>HDevelopAssistants</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+            
+    <item>
+      <title>Görüntü Edinme Yardımcısı</title>
+      <description>'Yardımcılar -> Yeni Görüntü Edinme Aç' veya buna karşılık gelen araç çubuğunu kullanarak görüntü edinebilir ve görüntü edinme aygıtınızın parametrelerini ayarlayabilirsiniz.
+      </description>
+      <link>HasImageAcquisitionDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the program listing -->
+ 
+    <item>
+      <title>Kopyala ve Yapıştır</title>
+      <description>Değişik HDevelop programları arasında program kodunu veya altprogramları kolaycana kopyalayabilmek için birden fazla HDevelop'u aynı anda açınız.</description>
+      <link>CopyAndPaste</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Otomatik Girintileme</title>
+      <description>Tam metin düzenleyicisinde çalışırken Ctrl+A ve ardından Ctrl+Shift+I ile eldeki program penceresindeki tüm program satırlarını seçip girintileyebilirsiniz.
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>Gelişmiş Otomatik Tamamlama</title>
+      <description>Tam metin düzenleyicisinde çalışırken Tab tuşunu kullanarak, gelişmiş otomatik tamamlama gerçekleştirilebilir.
+      </description>
+      <link>FullTextEditor</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>Enter Tuşunun Davranışı</title>
+      <description>Program penceresinde 'Düzenle -> Tercihler -> Genel Seçenekler -> Genel Seçenekler' veya karşılık gelen araç çubuğunu kullanarak Enter tuşunun genel davranışını 'enter ve yürüt' veya 'enter' olarak ayarlayabilirsiniz.
+      </description>
+      <link>HuiOptionsDlg/TabGeneralOptions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+       <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+        
+    <item>
+      <title>Altprogramların İzlenmesi</title>
+      <description>Alt+Ctrl+Enter ile yeni bir sekmede seçilmiş altprogramı izleyebilir veya düzenleyebilirsiniz.
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>Program Satır izlemesi</title>
+      <description>'Pencere -> Program Satır İzlemesini Aç' ile program satırlarınızı yönetebilirsiniz, örneğin, yer işaretinin (bookmark) bulunduğu program satırları ile aranan sözcüğün satırları arasında dolaşabilmek gibi.
+      </description>
+      <link>HuiProcLineResultDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Yer İşareti (Bookmark) Seçilmesi</title>
+      <description>'Yer İşaretini Ayarla' ile (Ctrl+F11) büyük programların önemli satırları arasında dolaşmak için geçici yer işaretleri (bookmark) kullanabilirsiniz.
+      </description>
+      <link>SetBookmarks</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+        
+    <item>
+      <title>Kodun Dışarı Aktarımı</title>
+      <description>'Dosya -> Dışarı Aktar...' ile veya karşılık gelen araç çubuğunu kullanarak geliştirilmiş bulunan HDevelop programını çeşitli programlara dışarı aktarabilirsiniz. 
+      </description>
+      <link>CodeExport</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+ 
+  </channel>
+ 
+</rss>
+
+

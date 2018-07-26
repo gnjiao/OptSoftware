@@ -1,0 +1,341 @@
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160111修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160122修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160311修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160318修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160323修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160330修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\Common.dll
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\bin\Release\Common.pdb
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\组件接线盒检测20150706\opt_Weld_identification_20160415修正信息图像保存问题\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\bin\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\bin\Release\Common.dll
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\bin\Release\Common.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification__焊接\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification__焊接\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification__焊接\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\Common.dll
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\Common.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\ResolveAssemblyReference.cache
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\Common.dll
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\Common.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\login_generate.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\Common.dll
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\Common.pdb
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.Form1.resources
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.exe
+F:\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\Common.dll
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\bin\Release\Common.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 - 烙铁 -改PLCIO点-0503\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.dll
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.exe
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.pdb
+E:\公司代码\晶科接线盒\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.exe
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.pdb
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.dll
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.pdb
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.exe
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.pdb
+E:\欧普泰\协鑫接线盒检测\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.exe
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\login_generate.pdb
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.dll
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\bin\Release\Common.pdb
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Form1.resources
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.exe
+E:\欧普泰\晶科一体机\opt_Weld_identification__焊接 -一体机20170618\login_generate\obj\x86\Release\login_generate.pdb
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\bin\Release\login_generate.exe
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\bin\Release\login_generate.pdb
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\bin\Release\Common.dll
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\bin\Release\Common.pdb
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.Form1.resources
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.exe
+D:\Downloads\接线盒检测-20171215\一体机-晶科\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\bin\Release\login_generate.exe
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\bin\Release\login_generate.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\bin\Release\Common.dll
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\bin\Release\Common.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Think\Desktop\一体机-晶科-20171222\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\bin\Release\login_generate.exe
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\bin\Release\login_generate.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\bin\Release\Common.dll
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\bin\Release\Common.pdb
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Think\Desktop\一体机-晶科-20171225\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\bin\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\bin\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180107\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\bin\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\bin\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180108\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\bin\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\bin\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\bin\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\bin\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180226\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\bin\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\bin\Release\login_generate.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\login_generate\obj\x86\Release\login_generate.pdb
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\bin\Release\login_generate.exe
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\bin\Release\login_generate.pdb
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\bin\Release\Common.dll
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\bin\Release\Common.pdb
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.Form1.resources
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.exe
+C:\Users\admin\Desktop\一体机-晶科-20180309\login_generate\obj\x86\Release\login_generate.pdb
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\bin\Release\login_generate.exe
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\bin\Release\login_generate.pdb
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\bin\Release\Common.dll
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\bin\Release\Common.pdb
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.Form1.resources
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.exe
+D:\软件维护\B300焊接机-20180611（晶科&英利）\login_generate\obj\x86\Release\login_generate.pdb
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\bin\Release\login_generate.exe.config
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\bin\Release\login_generate.exe
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\bin\Release\login_generate.pdb
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\bin\Release\Common.dll
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\bin\Release\Common.pdb
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.Form1.resources
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.exe
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.pdb
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\bin\Release\login_generate.exe.config
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\bin\Release\login_generate.exe
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\bin\Release\login_generate.pdb
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\bin\Release\Common.dll
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\bin\Release\Common.pdb
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.csprojResolveAssemblyReference.cache
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.Form1.resources
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.Properties.Resources.resources
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.csproj.GenerateResource.Cache
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.exe
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\login_generate\obj\x86\Release\login_generate.pdb

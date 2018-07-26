@@ -1,0 +1,1181 @@
+14:58    图像保存失败:2017年11月7日14587
+14:59    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:59    图像保存失败:HALCON error #3142: Can not open file for writing in operator write_image   2017年11月7日145919
+14:59    总结果:0
+14:59    返回结果:True
+15:09    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:09    总结果:0
+15:09    返回结果:True
+15:12    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:12    总结果:0
+15:12    返回结果:True
+15:21    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:21    总结果:0
+15:22    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:22    总结果:0
+15:23    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:23    总结果:0
+15:24    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:24    总结果:0
+15:24    图像保存失败:HALCON error #3142: Can not open file for writing in operator write_image   11s?<.11111222
+15:24    总结果:0
+15:26    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:26    总结果:0
+15:26    返回结果:True
+10:00    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:00    总结果:0
+10:00    返回结果:True
+10:52    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+10:52    总结果:0
+10:52    返回结果:True
+20:19    定位模板打开失败HALCON error #5200: File not found in operator read_image
+9:51    定位模板打开失败HALCON error #5200: File not found in operator read_image
+11:20    定位模板打开失败HALCON error #5200: File not found in operator read_image
+11:20    总结果:0
+11:20    返回结果:True
+11:22    总结果:0
+11:22    返回结果:True
+11:22    总结果:0
+11:22    返回结果:True
+11:22    总结果:0
+11:22    返回结果:True
+20:35    定位模板打开失败HALCON error #5200: File not found in operator read_image
+20:39    定位模板打开失败HALCON error #5200: File not found in operator read_image
+20:44    定位模板打开失败HALCON error #5200: File not found in operator read_image
+0:33    定位模板打开失败HALCON error #5200: File not found in operator read_image
+1:06    定位模板打开失败HALCON error #5200: File not found in operator read_image
+1:07    总结果:0
+1:07    返回结果:True
+1:08    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:32    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:21    侧面相机：识别错误！
+17:21    侧面相机：识别错误！
+17:21    侧面相机：识别错误！
+17:22    侧面相机：识别错误！
+17:22    侧面相机：识别错误！
+17:47    侧面相机：模板定位失败！
+19:46    侧面相机：模板定位失败！
+19:46    侧面相机：模板定位失败！
+19:46    侧面相机：模板定位失败！
+19:46    侧面相机：模板定位失败！
+19:46    侧面相机：模板定位失败！
+19:47    侧面相机：模板定位失败！
+8:49    侧面相机：识别错误！
+8:57    侧面相机：识别错误！
+12:06    索引超出了数组界限。
+10:25    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:26    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:29    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:30    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:32    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:57    侧面相机：识别错误！
+14:59    侧面相机：识别错误！
+15:00    侧面相机：识别错误！
+9:19    侧面相机：识别错误！
+9:19    侧面相机：识别错误！
+9:19    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:20    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:21    侧面相机：识别错误！
+9:22    侧面相机：识别错误！
+9:22    侧面相机：识别错误！
+9:24    侧面相机：识别错误！
+9:25    侧面相机：识别错误！
+10:03    侧面相机：识别错误！
+10:04    侧面相机：识别错误！
+10:09    侧面相机：识别错误！
+10:12    侧面相机：识别错误！
+10:14    侧面相机：识别错误！
+10:20    侧面相机：识别错误！
+10:27    侧面相机：识别错误！
+10:29    侧面相机：识别错误！
+10:37    侧面相机：识别错误！
+10:43    侧面相机：识别错误！
+10:50    侧面相机：识别错误！
+12:19    侧面相机：识别错误！
+12:20    侧面相机：识别错误！
+12:38    侧面相机：识别错误！
+12:38    侧面相机：识别错误！
+12:38    侧面相机：识别错误！
+12:39    侧面相机：识别错误！
+12:46    侧面相机：识别错误！
+12:46    侧面相机：识别错误！
+12:46    侧面相机：识别错误！
+12:51    侧面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:38    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:39    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:40    正面相机：识别错误！
+14:43    正面相机：识别错误！
+16:19    正面相机：识别错误！
+19:13    正面相机：识别错误！
+19:13    正面相机：识别错误！
+19:21    正面相机：识别错误！
+19:24    正面相机：识别错误！
+19:24    正面相机：识别错误！
+19:24    正面相机：识别错误！
+19:24    正面相机：识别错误！
+19:25    正面相机：识别错误！
+19:26    正面相机：识别错误！
+19:26    正面相机：识别错误！
+19:26    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+19:28    正面相机：识别错误！
+20:52    正面相机：识别错误！
+20:52    正面相机：识别错误！
+20:54    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:56    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+20:57    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:25    正面相机：识别错误！
+21:26    正面相机：识别错误！
+21:26    正面相机：识别错误！
+21:38    正面相机：识别错误！
+21:38    正面相机：识别错误！
+21:44    正面相机：识别错误！
+21:45    正面相机：识别错误！
+21:45    正面相机：识别错误！
+21:46    正面相机：识别错误！
+21:48    正面相机：识别错误！
+21:51    正面相机：识别错误！
+21:51    正面相机：识别错误！
+21:51    正面相机：识别错误！
+21:52    正面相机：识别错误！
+21:54    正面相机：识别错误！
+20:44    侧面相机：模板定位失败！
+20:44    侧面相机：模板定位失败！
+9:00    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:44    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:45    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:47    定位模板打开失败HALCON error #5200: File not found in operator read_image
+22:17    定位模板打开失败HALCON error #5200: File not found in operator read_image
+13:53    定位模板打开失败HALCON error #5200: File not found in operator read_image
+13:59    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:01    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:14    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:16    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:40    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:41    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:45    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:47    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:34    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:41    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:45    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:48    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:52    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:53    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:54    索引超出了数组界限。
+16:00    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:10    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:12    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:32    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:38    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:43    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:47    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:02    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:08    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:29    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:46    定位模板打开失败HALCON error #5200: File not found in operator read_image
+17:54    定位模板打开失败HALCON error #5200: File not found in operator read_image
+18:04    定位模板打开失败HALCON error #5200: File not found in operator read_image
+18:13    定位模板打开失败HALCON error #5200: File not found in operator read_image
+18:14    定位模板打开失败HALCON error #5200: File not found in operator read_image
+18:57    定位模板打开失败HALCON error #5200: File not found in operator read_image
+8:54    定位模板打开失败HALCON error #5200: File not found in operator read_image
+8:59    定位模板打开失败HALCON error #5200: File not found in operator read_image
+9:06    定位模板打开失败HALCON error #5200: File not found in operator read_image
+9:09    定位模板打开失败HALCON error #5200: File not found in operator read_image
+9:12    定位模板打开失败HALCON error #5200: File not found in operator read_image
+9:15    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:25    定位模板打开失败HALCON error #5200: File not found in operator read_image
+10:28    定位模板打开失败HALCON error #5200: File not found in operator read_image
+12:52    定位模板打开失败HALCON error #5200: File not found in operator read_image
+13:20    定位模板打开失败HALCON error #5200: File not found in operator read_image
+13:26    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:20    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:52    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:54    定位模板打开失败HALCON error #5200: File not found in operator read_image
+15:58    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:00    定位模板打开失败HALCON error #5200: File not found in operator read_image
+16:05    定位模板打开失败HALCON error #5200: File not found in operator read_image
+19:47    定位模板打开失败HALCON error #5200: File not found in operator read_image
+19:55    定位模板打开失败HALCON error #5200: File not found in operator read_image
+20:15    索引超出了数组界限。
+20:16    外部组件发生异常。
+10:22    定位模板打开失败HALCON error #5200: File not found in operator read_image
+14:39    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:42    匹配相机0
+14:42    匹配相机1
+14:42    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:42    匹配相机2
+14:44    匹配相机0
+14:44    匹配相机1
+14:44    匹配相机2
+14:52    匹配相机0
+14:52    匹配相机1
+14:52    匹配相机2
+14:53    匹配相机0
+14:53    匹配相机1
+14:53    匹配相机2
+15:07    匹配相机0
+15:07    匹配相机1
+15:07    匹配相机2
+15:08    匹配相机0
+15:08    匹配相机1
+15:08    匹配相机2
+15:14    匹配相机0
+15:14    匹配相机1
+15:14    匹配相机2
+18:52    匹配相机0
+18:52    匹配相机1
+18:52    匹配相机2
+19:27    匹配相机0
+19:27    匹配相机1
+19:27    匹配相机2
+19:53    匹配相机0
+19:53    匹配相机1
+19:53    匹配相机2
+19:55    匹配相机0
+19:55    匹配相机1
+19:55    匹配相机2
+19:57    匹配相机0
+19:58    匹配相机1
+19:58    匹配相机2
+19:58    匹配相机0
+19:58    匹配相机1
+19:58    匹配相机2
+20:06    匹配相机0
+20:06    匹配相机1
+20:06    匹配相机2
+22:17    匹配相机0
+22:17    匹配相机1
+22:17    匹配相机2
+0:20    匹配相机0
+0:20    匹配相机1
+0:20    匹配相机2
+0:25    匹配相机0
+0:25    匹配相机1
+0:25    匹配相机2
+0:31    匹配相机0
+0:31    匹配相机1
+0:31    匹配相机2
+1:31    匹配相机0
+1:31    匹配相机1
+1:31    匹配相机2
+2:06    匹配相机0
+2:06    匹配相机1
+2:06    匹配相机2
+10:44    匹配相机0
+10:44    匹配相机1
+10:44    匹配相机2
+10:45    匹配相机0
+10:45    匹配相机1
+10:45    匹配相机2
+11:15    匹配相机0
+11:15    匹配相机1
+11:15    匹配相机2
+11:16    匹配相机0
+11:16    匹配相机1
+11:16    匹配相机2
+11:19    匹配相机0
+11:19    匹配相机1
+11:19    匹配相机2
+14:09    匹配相机0
+14:09    匹配相机1
+14:09    匹配相机2
+14:17    匹配相机0
+14:17    匹配相机1
+14:17    匹配相机2
+17:14    匹配相机0
+17:14    匹配相机1
+17:14    匹配相机2
+23:44    匹配相机0
+23:44    匹配相机1
+23:44    匹配相机2
+7:11    匹配相机0
+7:11    匹配相机1
+7:11    匹配相机2
+13:49    匹配相机0
+13:49    匹配相机1
+13:49    匹配相机2
+13:53    匹配相机0
+13:53    匹配相机1
+13:53    匹配相机2
+14:31    匹配相机0
+14:31    匹配相机1
+14:31    匹配相机2
+19:16    匹配相机0
+19:16    匹配相机1
+19:16    匹配相机2
+19:21    匹配相机0
+19:21    匹配相机1
+19:21    匹配相机2
+14:15    匹配相机0
+14:15    匹配相机1
+14:15    匹配相机2
+14:19    匹配相机0
+14:19    匹配相机1
+14:19    匹配相机2
+14:21    匹配相机0
+14:21    匹配相机1
+14:21    匹配相机2
+15:51    匹配相机0
+15:51    匹配相机1
+15:51    匹配相机2
+15:52    匹配相机0
+15:52    匹配相机1
+15:52    匹配相机2
+19:14    匹配相机0
+19:14    匹配相机1
+19:14    匹配相机2
+20:53    匹配相机0
+20:53    匹配相机1
+20:53    匹配相机2
+14:09    匹配相机0
+14:09    匹配相机1
+14:09    匹配相机2
+9:11    匹配相机0
+9:11    匹配相机1
+9:11    匹配相机2
+15:37    匹配相机0
+15:37    匹配相机1
+15:37    匹配相机2
+15:37    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:38    匹配相机0
+15:38    匹配相机1
+15:38    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:38    匹配相机2
+15:58    匹配相机0
+15:58    匹配相机1
+15:58    匹配相机2
+15:58    读取定位模板失败HALCON error #5200: File not found in operator read_image
+19:28    匹配相机0
+19:28    匹配相机1
+19:28    匹配相机2
+20:38    匹配相机0
+20:38    匹配相机1
+20:38    匹配相机2
+20:38    读取定位模板失败HALCON error #5200: File not found in operator read_image
+20:41    匹配相机0
+20:41    匹配相机1
+20:41    匹配相机2
+20:41    读取定位模板失败HALCON error #5200: File not found in operator read_image
+20:46    匹配相机0
+20:46    匹配相机1
+20:46    匹配相机2
+20:55    侧面相机：识别错误！
+20:55    侧面相机：识别错误！
+20:55    匹配相机0
+20:55    匹配相机1
+20:55    匹配相机2
+21:20    匹配相机0
+21:20    匹配相机1
+21:20    匹配相机2
+21:23    匹配相机0
+21:23    匹配相机1
+21:23    匹配相机2
+22:19    匹配相机0
+22:19    匹配相机1
+22:19    匹配相机2
+9:26    匹配相机0
+9:26    匹配相机1
+9:26    匹配相机2
+9:29    匹配相机0
+9:29    匹配相机1
+9:29    匹配相机2
+10:40    匹配相机0
+10:40    匹配相机1
+10:40    匹配相机2
+10:55    匹配相机0
+10:55    匹配相机1
+10:55    匹配相机2
+11:32    匹配相机0
+11:32    匹配相机1
+11:32    匹配相机2
+16:43    侧面相机：模板定位失败！
+16:43    侧面相机：模板定位失败！
+20:47    匹配相机0
+20:47    匹配相机1
+20:47    匹配相机2
+20:52    匹配相机0
+20:52    匹配相机1
+20:52    匹配相机2
+22:14    匹配相机0
+22:14    匹配相机1
+22:14    匹配相机2
+22:57    匹配相机0
+22:57    匹配相机1
+22:57    匹配相机2
+23:46    匹配相机0
+23:46    匹配相机1
+23:46    匹配相机2
+7:51    匹配相机0
+7:51    匹配相机1
+7:51    匹配相机2
+10:29    匹配相机0
+10:29    匹配相机1
+10:29    匹配相机2
+10:42    匹配相机0
+10:42    匹配相机1
+10:42    匹配相机2
+10:51    匹配相机0
+10:51    匹配相机1
+10:51    匹配相机2
+11:11    侧面相机：模板定位失败！
+11:20    匹配相机0
+11:20    匹配相机1
+11:20    匹配相机2
+12:45    侧面相机：模板定位失败！
+12:45    侧面相机：模板定位失败！
+12:45    侧面相机：模板定位失败！
+12:46    侧面相机：模板定位失败！
+12:46    侧面相机：模板定位失败！
+12:46    侧面相机：模板定位失败！
+12:46    侧面相机：模板定位失败！
+13:08    侧面相机：模板定位失败！
+13:09    侧面相机：模板定位失败！
+13:09    侧面相机：模板定位失败！
+13:09    侧面相机：模板定位失败！
+13:09    侧面相机：模板定位失败！
+13:55    侧面相机：模板定位失败！
+14:23    匹配相机0
+14:23    匹配相机1
+14:23    匹配相机2
+15:14    侧面相机：模板定位失败！
+15:15    侧面相机：模板定位失败！
+15:15    侧面相机：模板定位失败！
+15:15    侧面相机：模板定位失败！
+15:53    侧面相机：模板定位失败！
+16:39    匹配相机0
+16:39    匹配相机1
+16:39    匹配相机2
+16:42    匹配相机0
+16:42    匹配相机1
+16:42    匹配相机2
+17:15    匹配相机0
+17:15    匹配相机1
+17:15    匹配相机2
+22:10    匹配相机0
+22:10    匹配相机1
+22:10    匹配相机2
+22:38    匹配相机0
+22:38    匹配相机1
+22:38    匹配相机2
+10:16    匹配相机0
+10:16    匹配相机1
+10:16    匹配相机2
+14:11    匹配相机0
+14:11    匹配相机1
+14:11    匹配相机2
+14:42    匹配相机0
+14:42    匹配相机1
+14:42    匹配相机2
+14:43    匹配相机0
+14:43    匹配相机1
+14:44    匹配相机2
+14:46    匹配相机0
+14:46    匹配相机1
+14:46    匹配相机2
+14:47    匹配相机0
+14:47    匹配相机1
+14:47    匹配相机2
+15:06    匹配相机0
+15:06    匹配相机1
+15:06    匹配相机2
+15:07    匹配相机0
+15:07    匹配相机1
+15:07    匹配相机2
+15:12    匹配相机0
+15:12    匹配相机1
+15:12    匹配相机2
+15:15    匹配相机0
+15:15    匹配相机1
+15:15    匹配相机2
+15:46    匹配相机0
+15:46    匹配相机1
+15:46    匹配相机2
+15:50    匹配相机0
+15:50    匹配相机1
+15:50    匹配相机2
+15:51    匹配相机0
+15:51    匹配相机1
+15:51    匹配相机2
+17:14    匹配相机0
+17:14    匹配相机1
+17:14    匹配相机2
+20:30    匹配相机0
+20:30    匹配相机1
+20:30    匹配相机2
+21:26    匹配相机0
+21:26    匹配相机1
+21:26    匹配相机2
+21:37    匹配相机0
+21:37    匹配相机1
+21:37    匹配相机2
+3:48    匹配相机0
+3:48    匹配相机1
+3:48    匹配相机2
+6:09    匹配相机0
+6:09    匹配相机1
+6:09    匹配相机2
+9:43    匹配相机0
+9:43    匹配相机1
+9:43    匹配相机2
+10:20    匹配相机0
+10:20    匹配相机1
+10:20    匹配相机2
+14:02    匹配相机0
+14:02    匹配相机1
+14:02    匹配相机2
+14:46    匹配相机0
+14:46    匹配相机1
+14:47    匹配相机2
+22:34    匹配相机0
+22:34    匹配相机1
+22:34    匹配相机2
+22:37    匹配相机0
+22:37    匹配相机1
+22:37    匹配相机2
+22:39    匹配相机0
+22:39    匹配相机1
+22:39    匹配相机2
+9:20    匹配相机0
+9:20    匹配相机1
+9:20    匹配相机2
+14:15    匹配相机0
+14:15    匹配相机1
+14:15    匹配相机2
+14:17    匹配相机0
+14:17    匹配相机1
+14:17    匹配相机2
+0:19    匹配相机0
+0:19    匹配相机1
+0:19    匹配相机2
+1:59    匹配相机0
+1:59    匹配相机1
+1:59    匹配相机2
+3:42    侧面相机：模板定位失败！
+9:35    匹配相机0
+9:35    匹配相机1
+9:35    匹配相机2
+9:48    匹配相机0
+9:48    匹配相机1
+9:48    匹配相机2
+10:04    匹配相机0
+10:04    匹配相机1
+10:04    匹配相机2
+18:19    匹配相机0
+18:19    匹配相机1
+18:19    匹配相机2
+21:57    侧面相机：模板定位失败！
+22:29    匹配相机0
+22:29    匹配相机1
+22:29    匹配相机2
+3:28    匹配相机0
+3:28    匹配相机1
+3:28    匹配相机2
+3:39    匹配相机0
+3:39    匹配相机1
+3:39    匹配相机2
+3:40    匹配相机0
+3:40    匹配相机1
+3:40    匹配相机2
+4:50    匹配相机0
+4:50    匹配相机1
+4:50    匹配相机2
+10:10    匹配相机0
+10:10    匹配相机1
+10:10    匹配相机2
+10:17    匹配相机0
+10:17    匹配相机1
+10:17    匹配相机2
+10:34    匹配相机0
+10:34    匹配相机1
+10:34    匹配相机2
+15:51    匹配相机0
+15:51    匹配相机1
+15:51    匹配相机2
+15:52    匹配相机0
+15:52    匹配相机1
+15:52    匹配相机2
+16:51    匹配相机0
+16:51    匹配相机1
+16:51    匹配相机2
+17:41    匹配相机0
+17:41    匹配相机1
+17:41    匹配相机2
+2:46    侧面相机：模板定位失败！
+2:46    侧面相机：模板定位失败！
+4:43    匹配相机0
+4:43    匹配相机1
+4:43    匹配相机2
+9:41    匹配相机0
+9:41    匹配相机1
+9:41    匹配相机2
+10:51    匹配相机0
+10:51    匹配相机1
+10:51    匹配相机2
+11:29    匹配相机0
+11:29    匹配相机1
+11:29    匹配相机2
+17:19    匹配相机0
+17:19    匹配相机1
+17:19    匹配相机2
+17:23    匹配相机0
+17:23    匹配相机1
+17:23    匹配相机2
+17:27    匹配相机0
+17:27    匹配相机1
+17:27    匹配相机2
+17:39    匹配相机0
+17:39    匹配相机1
+17:39    匹配相机2
+17:52    匹配相机0
+17:52    匹配相机1
+17:52    匹配相机2
+18:12    匹配相机0
+18:12    匹配相机1
+18:12    匹配相机2
+18:15    匹配相机0
+18:15    匹配相机1
+18:15    匹配相机2
+18:18    匹配相机0
+18:18    匹配相机1
+18:18    匹配相机2
+20:10    匹配相机0
+20:10    匹配相机1
+20:10    匹配相机2
+23:02    匹配相机0
+23:02    匹配相机1
+23:02    匹配相机2
+23:03    匹配相机0
+23:03    匹配相机1
+23:03    匹配相机2
+19:15    匹配相机0
+19:15    匹配相机1
+19:15    匹配相机2
+20:58    匹配相机0
+20:58    匹配相机1
+20:58    匹配相机2
+21:41    匹配相机0
+21:41    匹配相机1
+21:41    匹配相机2
+23:27    匹配相机0
+23:27    匹配相机1
+23:27    匹配相机2
+23:27    匹配相机0
+23:27    匹配相机1
+23:27    匹配相机2
+23:28    匹配相机0
+23:28    匹配相机1
+23:28    匹配相机2
+0:14    匹配相机0
+0:14    匹配相机1
+0:14    匹配相机2
+4:42    匹配相机0
+4:42    匹配相机1
+4:42    匹配相机2
+7:09    匹配相机0
+7:09    匹配相机1
+7:09    匹配相机2
+7:10    匹配相机0
+7:10    匹配相机1
+7:10    匹配相机2
+1:11    匹配相机0
+1:11    匹配相机1
+1:11    匹配相机2
+2:54    匹配相机0
+2:54    匹配相机1
+2:54    匹配相机2
+7:36    匹配相机0
+7:36    匹配相机1
+7:36    匹配相机2
+4:04    匹配相机0
+4:04    匹配相机1
+4:04    匹配相机2
+4:14    匹配相机0
+4:14    匹配相机1
+4:14    匹配相机2
+4:17    匹配相机0
+4:17    匹配相机1
+4:17    匹配相机2
+6:47    匹配相机0
+6:47    匹配相机1
+6:47    匹配相机2
+7:26    匹配相机0
+7:26    匹配相机1
+7:26    匹配相机2
+21:37    匹配相机0
+21:37    匹配相机1
+21:37    匹配相机2
+19:35    匹配相机0
+19:35    匹配相机1
+19:35    匹配相机2
+2:00    匹配相机0
+2:00    匹配相机1
+2:00    匹配相机2
+5:44    匹配相机0
+5:44    匹配相机1
+5:44    匹配相机2
+3:34    侧面相机：模板定位失败！
+4:32    匹配相机0
+4:32    匹配相机1
+4:32    匹配相机2
+12:01    匹配相机0
+12:01    匹配相机1
+12:01    匹配相机2
+2:47    侧面相机：模板定位失败！
+20:45    匹配相机0
+20:45    匹配相机1
+20:45    匹配相机2
+11:50    匹配相机0
+11:50    匹配相机1
+11:50    匹配相机2
+11:50    匹配相机0
+11:50    匹配相机1
+11:50    匹配相机2
+3:35    匹配相机0
+3:35    匹配相机1
+3:35    匹配相机2
+3:55    匹配相机0
+3:55    匹配相机1
+3:55    匹配相机2
+4:40    匹配相机0
+4:40    匹配相机1
+4:40    匹配相机2
+4:50    匹配相机0
+4:50    匹配相机1
+4:50    匹配相机2
+4:55    匹配相机0
+4:55    匹配相机1
+4:55    匹配相机2
+5:51    匹配相机0
+5:51    匹配相机1
+5:51    匹配相机2
+8:02    匹配相机0
+8:02    匹配相机1
+8:02    匹配相机2
+8:09    匹配相机0
+8:09    匹配相机1
+8:09    匹配相机2
+8:21    匹配相机0
+8:21    匹配相机1
+8:21    匹配相机2
+10:57    匹配相机0
+10:57    匹配相机1
+10:57    匹配相机2
+1:45    匹配相机0
+1:45    匹配相机1
+1:45    匹配相机2
+23:47    匹配相机0
+23:47    匹配相机1
+23:47    匹配相机2
+23:50    匹配相机0
+23:50    匹配相机1
+23:50    匹配相机2
+15:02    匹配相机0
+15:02    匹配相机1
+15:02    匹配相机2
+15:07    匹配相机0
+15:07    匹配相机1
+15:07    匹配相机2
+15:21    匹配相机0
+15:21    匹配相机1
+15:21    匹配相机2
+15:25    匹配相机0
+15:25    匹配相机1
+15:25    匹配相机2
+15:43    匹配相机0
+15:43    匹配相机1
+15:43    匹配相机2
+15:44    匹配相机0
+15:44    匹配相机1
+15:44    匹配相机2
+16:00    匹配相机0
+16:00    匹配相机1
+16:00    匹配相机2
+16:01    匹配相机0
+16:01    匹配相机1
+16:01    匹配相机2
+16:02    匹配相机0
+16:02    匹配相机1
+16:02    匹配相机2
+16:14    匹配相机0
+16:14    匹配相机1
+16:14    匹配相机2
+16:25    匹配相机0
+16:25    匹配相机1
+16:25    匹配相机2
+17:46    匹配相机0
+17:46    匹配相机1
+17:46    匹配相机2
+19:59    匹配相机0
+19:59    匹配相机1
+19:59    匹配相机2
+22:31    匹配相机0
+22:31    匹配相机1
+22:31    匹配相机2
+9:16    匹配相机0
+9:16    匹配相机1
+9:16    匹配相机2
+9:37    匹配相机0
+9:37    匹配相机1
+9:37    匹配相机2
+9:46    匹配相机0
+9:46    匹配相机1
+9:46    匹配相机2
+9:49    匹配相机0
+9:49    匹配相机1
+9:49    匹配相机2
+9:50    匹配相机0
+9:50    匹配相机1
+9:50    匹配相机2
+9:55    匹配相机0
+9:55    匹配相机1
+9:55    匹配相机2
+10:11    匹配相机0
+10:11    匹配相机1
+10:11    匹配相机2
+10:16    匹配相机0
+10:16    匹配相机1
+10:16    匹配相机2
+10:34    匹配相机0
+10:34    匹配相机1
+10:34    匹配相机2
+10:35    匹配相机0
+10:35    匹配相机1
+10:35    匹配相机2
+10:38    匹配相机0
+10:38    匹配相机1
+10:38    匹配相机2
+10:39    匹配相机0
+10:39    匹配相机1
+10:39    匹配相机2
+10:49    匹配相机0
+10:49    匹配相机1
+10:49    匹配相机2
+10:52    匹配相机0
+10:52    匹配相机1
+10:52    匹配相机2
+10:53    匹配相机0
+10:53    匹配相机1
+10:53    匹配相机2
+13:29    匹配相机0
+13:29    匹配相机1
+13:29    匹配相机2
+14:57    匹配相机0
+14:57    匹配相机1
+14:57    匹配相机2
+16:14    匹配相机0
+16:14    匹配相机1
+16:14    匹配相机2
+16:46    匹配相机0
+16:46    匹配相机1
+16:46    匹配相机2
+17:08    匹配相机0
+17:08    匹配相机1
+17:08    匹配相机2
+17:12    匹配相机0
+17:12    匹配相机1
+17:12    匹配相机2
+18:19    匹配相机0
+18:19    匹配相机1
+18:19    匹配相机2
+18:23    匹配相机0
+18:23    匹配相机1
+18:23    匹配相机2
+18:27    匹配相机0
+18:27    匹配相机1
+18:27    匹配相机2
+18:29    匹配相机0
+18:29    匹配相机1
+18:29    匹配相机2
+18:35    匹配相机0
+18:35    匹配相机1
+18:35    匹配相机2
+18:41    匹配相机0
+18:41    匹配相机1
+18:41    匹配相机2
+10:00    匹配相机0
+10:00    匹配相机1
+10:01    匹配相机2
+10:24    匹配相机0
+10:24    匹配相机1
+10:24    匹配相机2
+16:01    匹配相机0
+16:01    匹配相机1
+16:01    匹配相机2
+16:13    匹配相机0
+16:13    匹配相机1
+16:13    匹配相机2
+16:14    匹配相机0
+16:14    匹配相机1
+16:14    匹配相机2
+18:07    匹配相机0
+18:07    匹配相机1
+18:07    匹配相机2
+18:07    匹配相机0
+18:07    匹配相机1
+18:07    匹配相机2
+18:20    匹配相机0
+18:20    匹配相机1
+18:20    匹配相机2
+18:22    匹配相机0
+18:22    匹配相机1
+18:22    匹配相机2
+18:22    匹配相机0
+18:22    匹配相机1
+18:22    匹配相机2
+18:23    匹配相机0
+18:23    匹配相机1
+18:23    匹配相机2
+18:24    匹配相机0
+18:24    匹配相机1
+18:24    匹配相机2
+9:55    匹配相机0
+9:55    匹配相机1
+9:55    匹配相机2
+10:10    匹配相机0
+10:10    匹配相机1
+10:10    匹配相机2
+10:31    匹配相机0
+10:31    匹配相机1
+10:31    匹配相机2
+14:27    匹配相机0
+14:27    匹配相机1
+14:27    匹配相机2
+14:42    匹配相机0
+14:42    匹配相机1
+14:42    匹配相机2
+14:58    匹配相机0
+14:58    匹配相机1
+14:59    匹配相机2
+15:07    匹配相机0
+15:07    匹配相机1
+15:07    匹配相机2
+15:08    匹配相机0
+15:08    匹配相机1
+15:08    匹配相机2
+15:08    匹配相机0
+15:08    匹配相机1
+15:08    匹配相机2
+15:22    匹配相机0
+15:22    匹配相机1
+15:22    匹配相机2
+21:07    读取定位模板失败HALCON error #5200: File not found in operator read_image
+21:38    读取定位模板失败HALCON error #5200: File not found in operator read_image
+21:39    读取定位模板失败HALCON error #5200: File not found in operator read_image
+21:39    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:37    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:37    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:38    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:50    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:54    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:15    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:15    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:52    读取定位模板失败HALCON error #5200: File not found in operator read_image
+16:35    读取定位模板失败HALCON error #5200: File not found in operator read_image
+5:22    读取定位模板失败HALCON error #5200: File not found in operator read_image
+5:30    读取定位模板失败HALCON error #5200: File not found in operator read_image
+6:11    读取定位模板失败HALCON error #5200: File not found in operator read_image
+7:50    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:25    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:34    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:35    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:43    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:44    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:45    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:48    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:49    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:55    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:56    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:54    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:34    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:41    读取定位模板失败HALCON error #5200: File not found in operator read_image
+19:09    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:28    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:30    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:03    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:07    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:10    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:49    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:15    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:16    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:18    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:03    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:07    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:54    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:53    读取定位模板失败HALCON error #5200: File not found in operator read_image
+16:52    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:08    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:17    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:48    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:31    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:14    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:53    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:24    读取定位模板失败HALCON error #5200: File not found in operator read_image
+12:29    读取定位模板失败HALCON error #5200: File not found in operator read_image
+12:29    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:45    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:19    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:51    外部组件发生异常。
+12:51    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:39    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:40    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:41    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:56    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:02    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:03    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:07    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:14    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:14    读取定位模板失败HALCON error #5200: File not found in operator read_image
+14:43    读取定位模板失败HALCON error #5200: File not found in operator read_image
+22:56    侧面相机：识别错误！
+22:56    侧面相机：识别错误！
+17:29    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:53    读取定位模板失败HALCON error #5200: File not found in operator read_image
+12:57    读取定位模板失败HALCON error #5200: File not found in operator read_image
+13:36    读取定位模板失败HALCON error #5200: File not found in operator read_image
+12:59    读取定位模板失败HALCON error #5200: File not found in operator read_image
+12:41    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:37    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:47    读取定位模板失败HALCON error #5200: File not found in operator read_image
+9:59    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:15    读取定位模板失败HALCON error #5200: File not found in operator read_image
+18:42    读取定位模板失败HALCON error #5200: File not found in operator read_image
+8:54    读取定位模板失败HALCON error #5200: File not found in operator read_image
+15:23    读取定位模板失败HALCON error #5200: File not found in operator read_image
+10:18    读取定位模板失败HALCON error #5200: File not found in operator read_image

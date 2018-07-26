@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<rss version="2.0">
+ 
+  <channel>
+    <title>HALCON: Tips of the Day</title>
+    <link>http://www.halcon.com/</link>
+    <description>Tips and tricks for HALCON users.</description>
+    <language>de-de</language>
+    <copyright>MVTec Software GmbH</copyright>
+    <pubDate>Tue, 5 Mar 2013 2:43:19</pubDate>
+    <image>
+      <url>http://www.mvtec.com/headlines/halcon-home.gif</url>
+      <title>HALCON</title>
+      <link>http://www.halcon.com/</link>
+    </image>
+    
+        
+    <!-- General behavior -->
+    
+    <item>
+      <title>Fenster anordnen</title>
+      <description>Wenn sich viele Fenster überlappen, verwenden Sie 'Fenster -> Fenster anordnen' (Strg+Shift+W,O), um wieder den Überblick und Zugang zu den vier wichtigsten HDevelop-Fenstern herzustellen. 
+      </description>
+      <link>OrganizeWindows</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Schaltflächenleiste verschieben</title>
+      <description>Wenn die Höhe des Hauptfensters nicht ausreicht, können Sie etwas mehr Höhe gewinnen, indem Sie die Elemente der Schaltflächenleiste an ihren Anfassern von oben zur Seite des Hauptfensters ziehen.
+      </description>
+      <link>HuiMainWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Vollbild verwenden</title>
+      <description>Wenn die Höhe des Hauptfensters nicht ausreicht, können Sie etwas mehr Höhe gewinnen, indem Sie 'Fenster -> Vollbild' (Strg+Shift+W,F) auswählen, um den Fenstertitel auszublenden.
+      </description>
+      <link>FullScreen</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <item>
+      <title>Ausgabekonsole</title>
+      <description>Ein Doppelklick auf das Mitteilungsfeld der Statusleiste öffnet die Ausgabekonsole mit einem Log der letzten Nachrichten einschließlich der HALCON-Low-Level-Fehler. 
+      </description>
+      <link>HuiEventLogWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <!-- Working with the graphics window -->
+        
+    <item>
+      <title>Fenster speichern</title>
+      <description>Durch einen Rechtsklick im Grafikfenster, können Sie im Kontextmenü 'Fensterinhalt speichern...' auswählen (Strg+Shift+G,S), um den Inhalt des aktuellen Fensters in einem Bild zu speichern.
+      </description>
+      <link>SaveWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Pixel inspizieren</title>
+      <description>Der Grauwert und die Bildkoordinaten eines Pixels auf der Position des Mauszeigers werden in der Statusleiste oder durch Drücken der Strg-Taste auch direkt neben dem Zeiger angezeigt.
+      </description>
+      <link>HuiGraphicsWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+        
+    <item>
+      <title>Genauigkeit der Maus</title>
+      <description>Unter 'Visualisierung -> Positionsgenauigkeit' können Sie einstellen, mit welcher Genauigkeit die Mausposition ausgegeben werden soll. Standardmäßig werden Integerwerte angegeben (Genauigkeit 0).
+      </description>
+      <link>PositionPrecision</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>Interaktive ROI-Erzeugung</title>
+      <description>Im Grafikfenster gibt es ein Icon in der Schaltflächenleiste, um auf das ROI-Fenster zuzugreifen. Dort können Sie interaktiv ROIs und XLDs zeichnen und einfache Messungen durchführen.
+      </description>
+      <link>HuiRoiDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+            
+    <item>
+      <title>Drag-and-Drop mit Bildern</title>
+      <description>Um ein Bild aus Datei zu öffnen, können Sie es einfach aus dem Datei-Browser ins HDevelop-Fenster ziehen.
+      </description>
+      <link>DragImages</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the variable view -->
+    
+
+
+    <item>
+      <title>Inspektionsfunktionen</title>
+      <description>Durch Rechtsklick auf ein numerisches Tupel im Variablenfenster, können Sie über den 'Als Funktion plotten'-Eintrag im Kontextmenü eine Funktion plotten, wobei die Tupelwerte als y-Werte für äquidistante x-Werte interpretiert werden.
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Punktwolke</title>
+      <description>Durch Rechtsklick auf zwei numerische Tupel gleicher Länge im Variablenfenster (wählen Sie beide Tupel gleichzeitig mit der Strg-Taste) können Sie den Eintrag 'Als X/Y Paar(e) plotten' im Kontextmenü verwenden, um eine Punktwolke zu erzeugen.
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Variablen inspizieren</title>
+      <description>Durch Doppelklick auf eine Steuervariable im Variablenfenster öffnet sich ein Inspektionsfenster mit variablenspezifischer Funktionalität.
+      </description>
+      <link>InspectionWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>3D Objektmodelle inspizieren</title>
+      <description>Durch Doppelklick auf das Handle des 3D-Objektmodells im Variablenfenster öffnet sich ein Inspektionsfenster mit Informationen über das Modell und der Möglichkeit dieses interaktiv darzustellen.
+      </description>
+      <link>HuiVarModel3DInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Live-Anzeige</title>
+      <description>Durch Doppelklick auf das Handle des Bildeinzugsgeräts im Variablenfenster öffnet sich ein Inspektionsfenster mit Parameterinformation und der Möglichkeit einer Live-Anzeige.
+      </description>
+      <link>HuiVarFGInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Variableninhalt speichern</title>
+      <description>Durch Rechtsklick auf einen Variablennamen im Variablenfenster, können Sie den Eintrag 'Speichern' im Kontextmenü verwenden, um den Inhalt der Variable in eine Datei zu speichern.
+      </description>
+      <link>HuiVarWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>Variableninhalt kopieren</title>
+      <description>Durch Rechtsklick auf den Namen einer Steuervariable im Variablenfenster können Sie den Eintrag 'Kopieren' im Kontextmenü (Strg+C) verwenden, um den Inhalt der Variable zu kopieren und einzufügen (Strg+V), z.B., an einer ausgewählten Position im Programmfenster.
+      </description>
+      <link>HuiVarWnd/TableControlVars</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    
+            
+    
+    <!-- Developing a program -->
+    
+    <item>
+      <title>Laufzeit von Programmen analysieren</title>
+      <description>Über 'Ausführen -> Profiler aktivieren' (Strg+Shift+F,F) können Sie die Ausführung einzelner Codezeilen prüfen und so Engpässe in Ihren Programmen finden.
+      </description>
+      <link>HuiProgWnd/ProcProfilerLines</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>Aufrufliste</title>
+      <description>Über 'Ausführen -> Threadansicht / Aufrufliste' (Strg+Shift+O,C) können Sie die Hierarchie der Prozeduren sehen, die aktuell auf der internen Aufrufliste von HDevelop aufgerufen wurden.
+      </description>
+      <link>CallStackWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>Operatorvorschläge</title>
+      <description>Nachdem ein Operatoraufruf im Programmfenster ausgewählt wurde, stellt der Menüeintrag 'Vorschläge' Alternativen, sowie mögliche Vorgänger- und Nachfolger-Operatoraufrufe zur Verfügung.
+      </description>
+      <link>OperatorSuggestions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+         
+    <item>
+      <title>Tooltips für eine Progammzeile</title>
+      <description>Wenn Sie mit dem Mauszeiger auf einem Operator, einer Prozedur oder einem Variablennamen innerhalb des Programmfensters verweilen, zeigt Ihnen ein Tooltip spezifische Informationen, z.B. den Namen und (Teile vom) Inhalt einer Variable an.
+      </description>
+      <link>HuiOptionsDlg/TabProgListing</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Prozeduren in neuen Tabs öffnen</title>
+      <description>Durch Drücken der Strg-Taste während Sie einen Prozedur aus der Dropdown-Auswahl im Programmfenster wählen, wird die Prozedur in einem neuen Tab geöffnet.
+      </description>
+      <link>HuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Prozeduren aus Code erzeugen</title>
+      <description>Um bestehenden Code in eine Prozedur umzuwandeln, markieren Sie einfach den entsprechenden Code im Programmfenster und wählen Sie im Menü 'Prozeduren -> Neue Prozedur erstellen' (Ctrl+Shift+P,C) um die neue Prozedur einzurichten.
+      </description>
+      <link>HuiCreateProcDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>Prozeduren kopieren</title>
+      <description>Um die lokale Prozedur, die gerade im Programmfenster geöffnet ist zu kopieren, wählen Sie diese im Menü 'Prozeduren -> Duplizieren' und geben im entsprechenden Dialog einfach den neuen Namen an.
+      </description>
+      <link>HuiProcInterfaceDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>Assistenten</title>
+      <description>Über den Menüeintrag 'Assistenten' können Sie auf Assistenten zugreifen, die Sie durch häufig gebrauchte Aufgaben wie Bildeinzug, Kamerakalibrierung, Matching, 1D Vermessung oder OCR führen.
+      </description>
+      <link>HDevelopAssistants</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+            
+    <item>
+      <title>Bildeinzugsassistent</title>
+      <description>Verwenden Sie 'Assistenten -> Öffne Image Acquisition' oder den entsprechenden Knopf in der Schaltflächenleiste um Bilder einzuziehen und die Parameter Ihres Bildeinzugsgeräts anzupassen.
+      </description>
+      <link>HasImageAcquisitionDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the program listing -->
+ 
+    <item>
+      <title>Kopieren und Einfügen</title>
+      <description>Um komfortabel Programmcode und Prozeduren zwischen verschiedenen HDevelop-Programmen zu kopieren, können Sie mehrere Instanzen von HDevelop gleichzeitig starten.
+      </description>
+      <link>CopyAndPaste</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Automatische Einrückungen</title>
+      <description>Mit Strg+A gefolgt von Strg+Shift+I können Sie, wenn Sie im Volltexteditor arbeiten, automatisch alle Zeilen des aktuellen Programms auswählen und einrücken.
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>Automatische Vervollständigung (Fortgeschrittene)</title>
+      <description>Durch Drücken der Tab-Taste ist eine automatische Vervollständigung für erfahrene Anwender beim Arbeiten mit dem Volltexteditor möglich.
+      </description>
+      <link>FullTextEditor</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>Verhalten der Return-Taste</title>
+      <description>Über 'Bearbeiten -> Einstellungen -> Allgemeine Optionen -> Allgemeine Optionen' oder über den entsprechenden Knopf in der Schaltflächenleiste des Programmfensters können Sie das Verhalten der Return-Taste von 'Einfügen und ausführen' auf 'Einfügen' ändern.
+      </description>
+      <link>HuiOptionsDlg/TabGeneralOptions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+       <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+        
+    <item>
+      <title>Prozeduren ansehen</title>
+      <description>Mit Alt+Strg+Enter können Sie eine ausgewählte Prozedur in einem neuen Tab ansehen oder editieren.
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>Programmzeilenansicht</title>
+      <description>Über 'Fenster -> Programmzeilenansicht öffnen' (Strg+Shift+O,R) können Sie Ihre Programmzeilen verwalten, z.B., zwischen mit Lesezeichen markierten Programmzeilen navigieren oder Zeilen mit einem bestimmten Suchbegriff auflisten lassen.
+      </description>
+      <link>HuiProcLineResultDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>Lesezeichen setzen</title>
+      <description>Über 'Lesezeichen setzen' im Kontextmenü des Programmfensters (Strg+F11) können Sie temporäre Lesezeichen setzen, um schnell zwischen wichtigen Programmzeilen langer Programme zu navigieren.
+      </description>
+      <link>SetBookmarks</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+        
+    <item>
+      <title>Code-Export</title>
+      <description>Über 'Datei -> Exportieren...' (Strg+Shift+O,X) oder über den entsprechenden Knopf in der Schaltflächenleiste können Sie ein entwickeltes HDevelop Programm in verschiedene Programmiersprachen exportieren. 
+      </description>
+      <link>CodeExport</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+ 
+  </channel>
+ 
+</rss>
+
+

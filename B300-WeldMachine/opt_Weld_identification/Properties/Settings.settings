@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="opt_Weld_identification.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Camera_port_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Image_save_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Image</Value>
+    </Setting>
+    <Setting Name="user_save_read_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">default_setting.config</Value>
+    </Setting>
+    <Setting Name="PortNumber_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">COM1</Value>
+    </Setting>
+    <Setting Name="BaudRate_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="PLC_CpuType_" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FX3U</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

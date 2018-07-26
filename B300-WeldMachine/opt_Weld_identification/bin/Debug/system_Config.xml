@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Param>
+  <Values1>
+    <value name="ParamGroupSelect" type="label" text="图像保存路径:" id="0" default="0" />
+    <value name="ImgSavePath" type="label" text="图像保存路径:" id="1" default="C:\Users\Public\Desktop" current="C:\Users\Administrator\Desktop" />
+    <value name="Cam1" type="label" text="图像保存路径:" id="1" default="285205023330" />
+    <value name="Cam2" type="label" text="图像保存路径:" id="2" default="285205023352" />
+    <value name="Cam3" type="label" text="图像保存路径:" id="3" default="285205023360" />
+    <value name="Cam4" type="label" text="图像保存路径:" id="4" default="289205022086" />
+    <value name="Cam5" type="label" text="图像保存路径:" id="5" default="289205022091" />
+  </Values1>
+</Param>

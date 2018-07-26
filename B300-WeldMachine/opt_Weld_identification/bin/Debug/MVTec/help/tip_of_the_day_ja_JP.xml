@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>HALCON: Tips of the Day</title>
+    <link>http://www.halcon.com/</link>
+    <description>HALCONユーザのためのヒントやテクニック</description>
+    <language>ja-JP</language>
+    <copyright>MVTec Software GmbH</copyright>
+    <pubDate>Tue, 5 Mar 2013 2:43:19</pubDate>
+    <image>
+      <url>http://www.mvtec.com/headlines/halcon-home.gif</url>
+      <title>HALCON</title>
+      <link>http://www.halcon.com/</link>
+    </image>
+    <!-- General behavior -->
+    <item>
+      <title>ウィンドウの整列</title>
+      <description>多くのウィンドウが重なっているときは、'ウィンドウ -&gt;　ウィンドウの整列' (Ctrl+Shift+W,O) により、最も良く使われる4つのウィンドウを整列表示できます。</description>
+      <link>OrganizeWindows</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>ツールバーの移動</title>
+      <description>もしメインウィンドウを表示するために高さが足りない場合、ツールバーをウインドウの上端から左右端へドラックすることで移動することができ、高さを確保することができます。</description>
+      <link>HuiMainWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>フルスクリーン</title>
+      <description>メインウィンドウの表示領域を確保するために、'ウィンドウ -&gt; フルスクリーン' (Ctrl+Shift+W,F) により、ウィンドウタイトルを消すことができます。</description>
+      <link>FullScreen</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>アウトプットコンソール</title>
+      <description>ステータスバーのメッセージエリアをダブルクリックすることで、HALCONローレベルエラーなど直近のメッセージのログを確認できるアウトプットコンソールを開くことができます。</description>
+      <link>HuiEventLogWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <!-- Working with the graphics window -->
+    <item>
+      <title>ウィンドウの保存</title>
+      <description>グラフィックスウィンドウを右クリックして 'ウィンドウを保存' (Ctrl+Shift+G,S) を選択することで、現在のウィンドウの状態を画像として保存できます。</description>
+      <link>SaveWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>ピクセル情報の確認</title>
+      <description>グラフィックウインドウ上ではマウスカーソル位置のピクセルの輝度値と画像座標がステータスバーに表示されます。また、Ctrlキーを押すことで、マウスカーソルの隣にその情報が表示されます。</description>
+      <link>HuiGraphicsWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>マウス精度</title>
+      <description>'表示 -&gt; 表示位置精度'を選択することで、マウス位置が示す画像座標精度を選択できます。初期値は整数（精度:0）となっています。</description>
+      <link>PositionPrecision</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>インタラクティブなROI生成</title>
+      <description>グラフィックスウィンドウにはROIウィンドウにアクセスできるツールバーアイコンがあります。インタラクティブにROIやXLDを描画しシンプルな計測を実行できます。</description>
+      <link>HuiRoiDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>画像のドラッグアンドドロップ</title>
+      <description>ファイルから画像を開く際、ファイルブラウザからファイルをドラッグしHDevelopウィンドウにドロップすれば、画像を簡単に開くことができます。</description>
+      <link>DragImages</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <!-- Working with the variable view -->
+    <item>
+      <title>グラフ検査</title>
+      <description>変数ビューの数値データ配列を右クリックして'関数のプロット'を選択することで、数値データ配列の要素番号をX軸に、値をY軸にプロットしたグラフを表示できます。</description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>散布図表示</title>
+      <description>変数ビューで同じ長さの数値データ配列のペアを(Ctrlキーを押しながら左クリックして)選択し、そのペアを右クリックして'X/Yペアのプロット'を選択することで、散布図を表示できます。</description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>変数検査</title>
+      <description>変数ビューの制御変数をダブルクリックすることで、変数検査ウィンドウを開くことができます。</description>
+      <link>InspectionWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>Inspect 3D Object Models</title>
+      <description>変数ビューの3Dオブジェクトモデルのハンドルをダブルクリックすることで、そのモデルの情報表示とインタラクティブな表示を行える検査ウィンドウを開くことができます。</description>
+      <link>HuiVarModel3DInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>ライブ表示</title>
+      <description>変数ビューの画像取得デバイスのハンドルをダブルクリックすることで、パラメータ情報とライブ表示を行える検査ウィンドウを開くことができます。</description>
+      <link>HuiVarFGInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>変数の保存</title>
+      <description>変数ビューの変数名を右クリックして'保存'を選択することで、変数の内容をファイルに保存することができます。</description>
+      <link>HuiVarWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>変数のコピー</title>
+      <description>変数ビューの変数名を右クリックして'コピー'(Ctrl+C)を選択し、それをプログラムリストの選択した位置に貼り付ける(Ctrl+V)ことができます。</description>
+      <link>HuiVarWnd/TableControlVars</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <!-- Developing a program -->
+    <item>
+      <title>プログラムのプロファイリング</title>
+      <description>'実行 -&gt; プロファイラーの有効化' (Ctrl+Shift+F,F) により、コード一行一行の実行時間を検査し、プログラムのボトルネックを見つけることができます。</description>
+      <link>HuiProgWnd/ProcProfilerLines</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>コールスタック</title>
+      <description>'実行 -&gt; スレッドビュー/コールスタック' (Ctrl+Shift+O,C) により、HDevelopの内部コールスタックにより現在呼び出されているプロシージャの階層を視覚化することができます。</description>
+      <link>CallStackWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>オペレータ候補の表示</title>
+      <description>プログラムウィンドウでオペレータを選択し'候補'メニューを選択すると、別候補、および、選択した関数の前処理、後処理候補を提案します。</description>
+      <link>OperatorSuggestions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>プログラムラインのTips</title>
+      <description>プログラムウィンドウ内のオペレータ、プロシージャ、または、変数名上にマウスカーソルを置くと、変数の名前や中身など特定の情報がTipsとして表示されます。</description>
+      <link>HuiOptionsDlg/TabProgListing</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>新しいタブでプロシージャを開く</title>
+      <description>プログラムウィンドウ内のドロップダウンリストからプロシージャを選択する際、Ctrlキーを押しながら選択することで、プロシージャを新しいタブに表示できます。</description>
+      <link>HuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>コードからのプロシージャ生成</title>
+      <description>既存のコードからプロシージャを生成する際、プログラムリスト内の対応するコードを選択して、'プロシージャ -&gt; 新しいプロシージャを作成...' (Ctrl+Shift+P,C)を選択することで、プロシージャインターフェースダイアログを開くことができます。</description>
+      <link>HuiCreateProcDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>プロシージャの複製</title>
+      <description>プログラムウィンドウにオープンした内部プロシージャをコピーするには、'プロシージャ -&gt; 複製...' を選択して、表示されるダイアログに新しい名前を入力してください。</description>
+      <link>HuiProcInterfaceDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>アシスタント</title>
+      <description>'アシスタント'メニューから、画像取得、カメラキャリブレーション、マッチング、計測、OCRといった使用頻度の高い機能の利用を補助するアシスタント機能を呼び出すことができます。</description>
+      <link>HDevelopAssistants</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>Image Acquisitionアシスタント</title>
+      <description>'アシスタント -&gt; 新規作成 Image Acquisition'を選択するか、対応するツールバーボタンを押すことで、画像取得デバイスのパラメータ調整や画像取得を行うことができます。</description>
+      <link>HasImageAcquisitionDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <!-- Working with the program listing -->
+    <item>
+      <title>コピーと貼り付け</title>
+      <description>別々のHDevelopプログラム間でプログラムコードやプロシージャを効率良くコピーするため、HDevelopを複数同時に起動することができます。</description>
+      <link>CopyAndPaste</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>自動インデント生成</title>
+      <description>フルテキストエディターモードでは、Ctrl+Aでプログラムラインをすべて選択した後、Ctrl+Shift+Iキーを押すことで、自動的にインデントをつけることができます。</description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>自動補完機能</title>
+      <description>フルテキストエディターモードでは、Tabキーで自動補完機能を使用できます。</description>
+      <link>FullTextEditor</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>リターンキーの挙動設定</title>
+      <description>オペレータウィンドウもしくはフルテキストエディターでリターンキーを押したとき、'OK（入力と実行）'か、'入力'のみとするかを、'編集 -&gt; 設定 -&gt; 一般オプション -&gt; 一般オプション'で設定できます。</description>
+      <link>HuiOptionsDlg/TabGeneralOptions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>プロシージャの確認</title>
+      <description>Alt+Ctrl+Enterキーで、選択したプロシージャの確認と編集を新しいタブで行えます。</description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>プログラムラインビュー</title>
+      <description>'ウィンドウ -&gt; プログラムラインビューを開く' (Ctrl+Shift+O,R) により、ブックマークされたプログラムラインへの移動や、検索単語を含んだラインのリスト化など、プログラムリストの管理を行えます。</description>
+      <link>HuiProcLineResultDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>ブックマークの設定</title>
+      <description>プログラムウィンドウのコンテキストメニューにある'ブックマークを設定' (Ctrl+F11)により、ブックマークの設定が可能です。これにより、大規模なプログラムにおいても重要な箇所へ素早く移動できます。</description>
+      <link>SetBookmarks</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    <item>
+      <title>コードのエクスポート</title>
+      <description>'ファイル -&gt; エクスポート...' (Ctrl+Shift+O,X)または対応するツールバーボタンにより、開発したHDevelopプログラムを、さまざまなプログラミング言語にエクスポートできます。</description>
+      <link>CodeExport</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
