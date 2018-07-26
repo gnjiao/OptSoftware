@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<rss version="2.0">
+ 
+  <channel>
+    <title>HALCON: Tips of the Day</title>
+    <link>http://www.halcon.com/</link>
+    <description>Tips and tricks for HALCON users.</description>
+    <language>zh-CN</language>
+    <copyright>MVTec Software GmbH</copyright>
+    <pubDate>Tue, 5 Mar 2013 2:43:19</pubDate>
+    <image>
+      <url>http://www.mvtec.com/headlines/halcon-home.gif</url>
+      <title>HALCON</title>
+      <link>http://www.halcon.com/</link>
+    </image>
+    
+        
+    <!-- General behavior -->
+    
+    <item>
+      <title>排列窗口</title>
+      <description>当在HDevelop界面中有多个重叠显示的窗口时，可已使用 "窗口 -> 排列窗口" (Ctrl+Shift+W, O)来重回到默认窗口排列方式并让最重要的4个HDevelop窗口重新显示在最前方。
+      </description>
+      <link>OrganizeWindows</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>移动工具栏</title>
+      <description>如果主窗口的高度不足够，那么你可以通过将工具栏中的元素从主窗口的上方拖拽到其他地方来获得额外的一些高度。
+      </description>
+      <link>HuiMainWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>使用全屏功能</title>
+      <description>如果主窗口的高度不足够使用，你可以通过使用“窗口 -> 全屏”（Ctrl+Shift+W，F）来隐藏窗口标题栏等。
+      </description>
+      <link>FullScreen</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <item>
+      <title>输出控制台</title>
+      <description>在状态栏的消息区域双击鼠标可以打开一个输出控制台，这个里面显示的是最近一些消息的日志，其中包含有HALCON底层错误码等。 </description>
+      <link>HuiEventLogWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <!-- Working with the graphics window -->
+        
+    <item>
+      <title>保存窗口</title>
+      <description>在图像窗口中右键单击并从上下文菜单中选择“保存窗口...”（Ctrl+Shift+G，S）来保存当前窗口中显示的内容为一幅图像。
+      </description>
+      <link>SaveWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>监视像素值</title>
+      <description>鼠标指针所指向像素的图像坐标位置及灰度值都会显示在状态栏上，或如果按住Ctrl键的话，可以在鼠标指针旁边显示这些信息。
+      </description>
+      <link>HuiGraphicsWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+        
+    <item>
+      <title>鼠标精度Mouse Precision</title>
+      <description>使用“可视化 -> 位置精度”你可以选择鼠标位置返回的精度。默认情况下，使用的精度值为0。
+      </description>
+      <link>PositionPrecision</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>交互生成感兴趣区域(ROI)</title>
+      <description>图像窗口提供了一个工具栏图标可用进入ROI窗口。这里，你可以交互式绘制ROIs和XLDs，或者进行简单的测量。
+      </description>
+      <link>HuiRoiDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+            
+    <item>
+      <title>拖放图像</title>
+      <description>从一个文件打开图像，你可以简单的将这个文件从文件浏览器中拖放到HDevelop窗口。
+      </description>
+      <link>DragImages</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the variable view -->
+    
+
+
+    <item>
+      <title>监视函数</title>
+      <description>在变量窗口中的一个数字数组上右键单击，可以使用在上下文菜单中的“像函数一样绘图”来按照函数进行绘图，数字数组中的值将作为函数的Y值，X值是等距的。
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>散点绘图</title>
+      <description>在变量窗口中选中两个等长的数字数组（使用Ctrl键同时选中两个数组），并右键单击，在上下文菜单中选择“按照 X/Y对 进行绘图，来绘制出散点图。
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>监视变量</title>
+      <description>在变量窗口中的控制变量上进行双击可以打开监视窗口，该监视窗口会根据变量的不同而显示不同的内容。
+      </description>
+      <link>InspectionWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>监视3D对象模型</title>
+      <description>在变量窗口中双击3D对象模型的句柄，可以打开一个监视窗口，窗口中显示所有关于此3D对象模型的信息，并可以交互式的显示这个3D对象模型。
+      </description>
+      <link>HuiVarModel3DInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>实时显示</title>
+      <description>在变量窗口的图像采集设备的句柄上进行双击可以打开一个监视窗口，监视窗口中显示所有参数信息并可以进行实时显示。
+      </description>
+      <link>HuiVarFGInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>保存变量内容</title>
+      <description>在变量窗口中的变量名称上右键单击，可以使用上下文菜单中的“保存”将变量的内容保存到一个文件中。
+      </description>
+      <link>HuiVarWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>拷贝变量内容</title>
+      <description>在变量窗口中的控制变量名称上右键单击，可以使用上下文菜单中的“拷贝”（Ctrl+C）将变量的内容进行拷贝并进行粘贴（Ctrl+V），例如粘贴到选定的程序位置中。
+      </description>
+      <link>HuiVarWnd/TableControlVars</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    
+            
+    
+    <!-- Developing a program -->
+    
+    <item>
+      <title>剖析程序</title>
+      <description>使用“执行 -> 激活性能评测器”（Ctrl+Shift+F，F），你可以监视程序中每一行代码的运行时间并找到你程序中性能的瓶颈所在。
+      </description>
+      <link>HuiProgWnd/ProcProfilerLines</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>调用堆栈</title>
+      <description>使用 “执行 -> 线程视图 / 调用堆栈”（Ctrl+Shift+O，C），你可以看到所有在HDevelop内部调用堆栈中所运行的函数的层级。
+      </description>
+      <link>CallStackWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>算子建议</title>
+      <description>当你在程序窗口中选中了一个调用算子时，菜单“建议”位置将提供建议，包括此算子的替代方案、前面可使用算子、后面可使用的算子等。
+      </description>
+      <link>OperatorSuggestions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+         
+    <item>
+      <title>程序代码行提示</title>
+      <description>将鼠标指针悬停在程序窗口中的一个算子，函数或变量名称上时，会出现一个包含一些特定信息的提示浮动窗，如：变量的名称和部分内容等。
+      </description>
+      <link>HuiOptionsDlg/TabProgListing</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>在一个新页面中打开函数</title>
+      <description>如果在从程序窗口的下拉列表中选择函数时按住Ctrl键，这样就会在一个新的Tab页中打开这个函数。
+      </description>
+      <link>HuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>从代码创建函数</title>
+      <description>通过一段已经存在的代码来创建函数，可以简单的在程序窗口中将相关的代码选中，并使用“函数 -> 创建新函数...”（Ctrl+Shift+P，C）来打开函数接口对话框来配置新函数即可。
+      </description>
+      <link>HuiCreateProcDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>拷贝函数</title>
+      <description>拷贝打开在程序窗口中的内部函数时，使用“函数 -> 拷贝...”并在弹出的对话框中输入新的名称即可。
+      </description>
+      <link>HuiProcInterfaceDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>助手</title>
+      <description>通过“助手”菜单，你可以打开一些助手，引导你进行常用的一些任务包括图像采集，摄像机标定，匹配，一维测量，或OCR。
+      </description>
+      <link>HDevelopAssistants</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+            
+    <item>
+      <title>图像采集助手</title>
+      <description>使用“助手 -> 打开新的 Image Acquisition”或使用相应的工具栏按钮来采集图像并调整图像采集设备的参数。
+      </description>
+      <link>HasImageAcquisitionDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the program listing -->
+ 
+    <item>
+      <title>拷贝和粘贴</title>
+      <description>你可以同时打开多个HDevelop程序，并在不同的程序或函数之间拷贝代码行。</description>
+      <link>CopyAndPaste</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>自动缩进</title>
+      <description>在全文编辑环境下，先使用Ctrl+A进行全选后，使用Ctrl+Shift+I可以将所有的代码行进行自动的缩进。
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>高级的自动补全</title>
+      <description>使用Tab键，可以在全文编辑环境下进行高级的自动补全。
+      </description>
+      <link>FullTextEditor</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>回车键的行为</title>
+      <description>通过 “编辑 -> 参数选择 -> 一般属性 -> 一般选项”或程序窗口的相应的工具栏按钮，可以改变回车键的行为。可以是“输入并执行”也可以是“输入”。
+      </description>
+      <link>HuiOptionsDlg/TabGeneralOptions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+       <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+        
+    <item>
+      <title>显示函数</title>
+      <description>使用Alt+Ctrl+Enter，你可以在一个新的Tab页中显示或编辑一个选中的函数。
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>程序行视图</title>
+      <description>使用“窗口 -> 打开程序行视图”（Ctrl+Shift+O，R），你可以管理你的代码行，例如在书签标识过的程序行之间导航，或在包含某搜索内容的所有代码行之间导航等。
+      </description>
+      <link>HuiProcLineResultDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>设置书签</title>
+      <description>在程序窗口的上下文菜单中使用“设置书签”（Ctrl+F11）可以设置临时书签,用于在一个大的程序中快速在重要代码行之间导航。
+      </description>
+      <link>SetBookmarks</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+        
+    <item>
+      <title>代码导出</title>
+      <description>使用“文件 -> 导出...”（Ctrl+Shift+O，X）或相应的工具栏按钮，你可以导出一个HDevelop程序到几种不同的编程语言，如C、C++、VB.NET、C#等。
+      </description>
+      <link>CodeExport</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+ 
+  </channel>
+ 
+</rss>
+
+

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<rss version="2.0">
+ 
+  <channel>
+    <title>HALCON: Tips of the Day</title>
+    <link>http://www.halcon.com/</link>
+    <description>Tips and tricks for HALCON users.</description>
+    <language>zh-TW</language>
+    <copyright>MVTec Software GmbH</copyright>
+    <pubDate>Tue, 5 Mar 2013 2:43:19</pubDate>
+    <image>
+      <url>http://www.mvtec.com/headlines/halcon-home.gif</url>
+      <title>HALCON</title>
+      <link>http://www.halcon.com/</link>
+    </image>
+    
+        
+    <!-- General behavior -->
+    
+    <item>
+      <title>整理視窗</title>
+      <description>當有許多重疊的視窗時，使用'視窗 - >整理視窗'(Ctrl+Shift+W,O)重新取得總覽四個最重要的HDevelop視窗。 
+      </description>
+      <link>OrganizeWindows</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>移動工具欄</title>
+      <description>如果主視窗的高度不夠，你可以透過從上面到主視窗旁邊的拖曳點拖動工具欄的元素以增加高度。
+      </description>
+      <link>HuiMainWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>使用全螢幕</title>
+      <description>如果主視窗的高度不夠，你可以使用'視窗 -> 全螢幕' (Ctrl+Shift+W,F)讓視窗標題淡出以增加高度。
+      </description>
+      <link>FullScreen</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <item>
+      <title>輸出控制台</title>
+      <description>雙擊狀態欄的訊息區, 打開輸出控制台有最近的訊息紀錄，包括HALCON的低階錯誤。 </description>
+      <link>HuiEventLogWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    <!-- Working with the graphics window -->
+        
+    <item>
+      <title>儲存視窗</title>
+      <description>右鍵單擊圖形視窗，您可以使用上下文選單的'儲存視窗...'(Ctrl+Shift+G,S) 來儲存當前視窗的內容到影像中.
+      </description>
+      <link>SaveWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>檢查像素</title>
+      <description>鼠標位置的像素灰階值和影像座標會顯示在狀態欄, 或按住Ctrl鍵, 會顯示在鼠標旁邊。
+      </description>
+      <link>HuiGraphicsWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+        
+    <item>
+      <title>鼠標的精確度</title>
+      <description>使用'形象化 -> 定位精度' 您可以選擇鼠標位置返回的精度。預設是使用整數值 (精度0)。
+      </description>
+      <link>PositionPrecision</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>交互式ROI生成</title>
+      <description>圖形視窗提供了一個工具欄圖標來使用ROI視窗。在那裡，您可以交互地繪製ROIs和XLDs並進行簡單的量測。
+      </description>
+      <link>HuiRoiDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+            
+    <item>
+      <title>拖放影像</title>
+      <description>要從檔案打開影像，你可以簡單地從檔案瀏覽器拖曳到HDevelop視窗並放在那裡。
+      </description>
+      <link>DragImages</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the variable view -->
+    
+
+
+    <item>
+      <title>檢查功能</title>
+      <description>在變量視窗中的數字元組上單擊鼠標右鍵，您可以使用上下文選單的'繪圖功能'來繪製函數解釋元組值成y值, 等距x值。
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>散點圖</title>
+      <description>在變量視窗中一對相同長度的數值元組上單擊鼠標右鍵 (使用Ctrl鍵同時選擇這兩個元組)，你可以從上下文選單中使用'繪圖為X/ Y對' 來建立散點圖。
+      </description>
+      <link>HuiVarFunctionInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>檢查變量</title>
+      <description>在變量視窗中雙擊控制變數,  開啟一個有特定變數功能的檢查視窗。
+      </description>
+      <link>InspectionWindow</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>檢查3D物件模型</title>
+      <description>在變量視窗中雙擊3D物件模型的把手, 開啟一個有模型訊息和交互顯示可能性的檢查視窗。
+      </description>
+      <link>HuiVarModel3DInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>實況顯示</title>
+      <description>在變量視窗中雙擊影像擷取裝置的把手, 開啟一個有參數訊息和實況顯示可能性的檢查視窗。
+      </description>
+      <link>HuiVarFGInspectWdg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>保存變量內容</title>
+      <description>在變量視窗中的變量名稱上單擊鼠標右鍵，可以使用上下文選單的'保存'來保存變量的內容到檔案上
+      </description>
+      <link>HuiVarWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+    
+    <item>
+      <title>複製變量內容</title>
+      <description>在變量視窗中的控制變量名稱上單擊鼠標右鍵，可以使用上下文選單的'複製'(Ctrl+C) 複製變量的內容，並貼上(Ctrl+V)，例如，在程式列表選定位置。
+      </description>
+      <link>HuiVarWnd/TableControlVars</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+    
+    
+            
+    
+    <!-- Developing a program -->
+    
+    <item>
+      <title>分析程式</title>
+      <description>使用'執行 - >啟動分析器'(Ctrl+Shift+F,F) 可以檢查單行程式碼的執行時間，從而找到程式的的瓶頸。
+      </description>
+      <link>HuiProgWnd/ProcProfilerLines</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>呼叫堆疊</title>
+      <description>使用'執行 - >線程查看/呼叫堆疊'(Ctrl+Shift+O,C) ，你可以想像被呼叫在HDevelop內部呼叫堆疊的程序階層.
+      </description>
+      <link>CallStackWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>運算子建議</title>
+      <description>當在程式視窗選擇一個運算子呼叫，選單中的'建議'會提供替代的，進行的，和接續的運算子呼叫建議。
+      </description>
+      <link>OperatorSuggestions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+         
+    <item>
+      <title>程式行的工具提示</title>
+      <description>鼠標指針擱置在運算子, 程序或變數名稱上時會顯示一個工具提示，提供特定的訊息，例如名稱和(部分)變數內容。
+      </description>
+      <link>HuiOptionsDlg/TabProgListing</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>在新的Tab中打開程序</title>
+      <description>當從程式視窗的下拉列表中選擇程序時按住Ctrl鍵, 會在新的tab卡中顯示程序。
+      </description>
+      <link>HuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>從程式碼創造程序</title>
+      <description>若要從現有的程式碼創造程序，只需選擇程式列表中相應的程式碼，用'程序 - >建立新程序...'(Ctrl+Shift+P,C) 開啟程序介面對話框來設定新程序。
+      </description>
+      <link>HuiCreateProcDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+
+    <item>
+      <title>複製程序</title>
+      <description>要複製程式視窗的內部程序，選擇'程序 - >複製...', 並在相應的對話框中輸入新的名稱。
+      </description>
+      <link>HuiProcInterfaceDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item> 
+        
+    <item>
+      <title>協助</title>
+      <description>透過選單中的'協助', 您可以尋找協助，指導您完成影像擷取, 相機校正, 匹配, 1D量測, 或OCR等經常需要的任務.
+      </description>
+      <link>HDevelopAssistants</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+            
+    <item>
+      <title>影像擷取協助</title>
+      <description>使用'協助 - >開啟新影像擷取'或相關的工具欄按鈕來取得影像和調整影像擷取裝置的參數。
+      </description>
+      <link>HasImageAcquisitionDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <!-- Working with the program listing -->
+ 
+    <item>
+      <title>複製和貼上</title>
+      <description>為了在不同HDevelop程式之間從容複製程式碼和程序，你可以開啟多個HDevelop範例。</description>
+      <link>CopyAndPaste</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>自動縮排</title>
+      <description>按Ctrl + A然後按Ctrl + Shift+ I, 當使用全文編輯器工作時, 可以自動選擇和縮排當前程式視窗的所有程式行。
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>進階自動完成</title>
+      <description>使用Tab鍵，當使用全文編輯器工作時，進階自動完成是可能的。
+      </description>
+      <link>FullTextEditor</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>      
+    
+    <item>
+      <title>返回鍵的動作</title>
+      <description>透過'編輯 - >喜好 - >一般選項 - >一般選項'或程式視窗中相關的工具欄按鈕，你可以將返回鍵的動作從'輸入並執行'改變成'輸入'。
+      </description>
+      <link>HuiOptionsDlg/TabGeneralOptions</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+       <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+        
+    <item>
+      <title>查看程序</title>
+      <description>用alt+Ctrl+Enter, 您可以在新的tab中查看或編輯一個選定的程序。
+      </description>
+      <link>ShortcutHuiProgWnd</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>    
+        
+    <item>
+      <title>程式行查看</title>
+      <description>使用 '視窗 ->開啟程式行查看' (Ctrl+Shift+O,R) , 你可以管理你的程式行，例如在有書籤的程式行或含有搜索詞的程式行之間進行導航。
+      </description>
+      <link>HuiProcLineResultDlg</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+    <item>
+      <title>設置書籤</title>
+      <description>使用程式視窗上下文選單中的'設置書籤'(Ctrl+F11)，你可以設置臨時書籤在大型程式中的重要程式行間快速導航。
+      </description>
+      <link>SetBookmarks</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+        
+    <item>
+      <title>程式碼輸出</title>
+      <description>使用'檔案 -> 輸出...' (Ctrl+Shift+O,X)或相關的工具欄按鈕，您可以輸出已開發的HDevelop程式到多種程式語言。
+      </description>
+      <link>CodeExport</link>
+      <author>MVTec Software GmbH, webmaster@mvtec.com</author>
+      <pubDate>Wed, 28 May 2014 110:35:17 +0100</pubDate>
+    </item>
+    
+ 
+  </channel>
+ 
+</rss>
+
+
+
