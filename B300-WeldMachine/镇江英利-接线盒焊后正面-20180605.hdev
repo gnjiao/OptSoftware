@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="12.0">
+<procedure name="main">
+<interface/>
+<body>
+<l>dev_close_window ()</l>
+<c>*************************************************************************</c>
+<l>* ImagePath:='D:/A01 文件备份/保定英利图片/2018年05月07日 白班/焊后正面识别'</l>
+<l>* ImagePath:='D:/A01 文件备份/保定英利图片/2018年05月08日 白班/焊后正面识别'</l>
+<l>* ImagePath:='D:/A01 文件备份/保定英利图片/2018年05月09日 白班/焊后正面识别'</l>
+<l>* ImagePath:='D:/A01 文件备份/保定英利图片/2018年05月10日 白班/焊后正面识别'</l>
+<c>*************************************************************************</c>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月21日 白班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月21日 夜班/焊后正面识别'</l>
+<c></c>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月22日 白班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月22日 夜班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月23日 白班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月23日 夜班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月24日 白班/焊后正面识别'</l>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月24日 夜班/焊后正面识别'</l>
+<l>ImagePath:='C:/保定英利照片20180528/2018年05月25日 白班/焊后正面识别'</l>
+<c></c>
+<l>* ImagePath:='C:/保定英利照片20180528/2018年05月31日 白班/焊后正面识别'</l>
+<c>* Image Acquisition2</c>
+<l>list_files (ImagePath+'/OK', ['files','follow_links'], ImageFiles)</l>
+<l>tuple_regexp_select (ImageFiles, ['\\.(bmp|jpg)$','ignore_case'], ImageFiles)</l>
+<l>read_image (Image, ImagePath+'/Model')</l>
+<l>* read_image (Image,  ImageFiles[0])</l>
+<l>get_image_size (Image, Width, Height)</l>
+<c>*新建窗口</c>
+<l>dev_open_window (0, 0, Width*0.52, Height*0.52, 'black', WindowID)</l>
+<c>*设置字体大小</c>
+<l>set_display_font (WindowID, 24, 'mono', 'true', 'false')</l>
+<l>dev_resize_window_fit_image (Image, 0, 0, -1, -1)</l>
+<l>dev_display (Image)</l>
+<c>*设置区域显示模式（轮廓）</c>
+<l>dev_set_draw ('margin')</l>
+<c></c>
+<c>*建立模板之前先做图像角度矫正</c>
+<l>Star_AffineTransImage (Image, ImageGauss1_AffinTrans, Height, Width)</l>
+<l>dev_display (ImageGauss1_AffinTrans)</l>
+<c>*模板位置 06</c>
+<c>* * draw_rectangle2 (WindowID, Row3, Column3, Phi, Length1, Length2)</c>
+<l>gen_rectangle2 (Rectangle, 1400, 1300, 0, 975, 203)</l>
+<l>* stop ()</l>
+<l>reduce_domain (ImageGauss1_AffinTrans, Rectangle, ImageReduced)</l>
+<l>crop_domain (ImageReduced, ImagePart)</l>
+<l>zoom_image_factor (ImagePart, ImageZoomed, 0.5, 0.5, 'constant')</l>
+<c>*建立模板</c>
+<l>pi := acos(0.0) * 2</l>
+<l>* create_template_rot (ImageZoomed, 4, -pi, 2 * pi, pi / 45, 'sort', 'original', TemplateID)</l>
+<c>* 保存模板20180508</c>
+<l>* write_template (TemplateID, ImagePath+'/'+'TemplateID')</l>
+<c></c>
+<c>*NG数量统计</c>
+<l>error:=0</l>
+<c>* 读取模板</c>
+<l>read_template (ImagePath+'/'+'TemplateID', TemplateID)</l>
+<l>for Index := 160 to |ImageFiles| - 1 by 1</l>
+<l>    read_image (Image, ImageFiles[Index])</l>
+<l>*     read_image (Image, 'C:/Users/Administrator/Desktop/8.jpg')</l>
+<l>    rgb1_to_gray (Image, Image)</l>
+<c>    *获得图像位置信息</c>
+<l>    parse_filename(ImageFiles[Index],afileBaseName,afileExt,afileDir)</l>
+<l>    dev_set_color ('red')</l>
+<c>    *创建一个通过时间的变量开始。</c>
+<l>    count_seconds (S1)</l>
+<l>    get_image_size (Image, Width, Height)</l>
+<l>    dev_clear_window ()</l>
+<l>    Star_AffineTransImage (Image, Image_AffinTrans, Height, Width)</l>
+<l>*     count_seconds (S1)</l>
+<l>    zoom_image_factor (Image_AffinTrans, ImageZoomed1, 0.5, 0.5, 'constant')   </l>
+<c>    * 匹配位置  </c>
+<l>    best_match_rot_mg (ImageZoomed1, TemplateID, -pi, 2 * pi, 40, 'true', 4, Row, Column, Angle, Error)</l>
+<l>    dev_display (Image_AffinTrans)</l>
+<l>    disp_arrow (WindowID, Row*2, Column*2, Row*2 - cos(Angle) * 50, Column*2 - sin(Angle) * 50, 15)</l>
+<l>    if (Error&lt;25)  </l>
+<c>        </c>
+<l>        row_2:=Row*2</l>
+<l>        column_2:=Column*2      </l>
+<l>        str_Welding_recognition_YL (Image, Image_AffinTrans, ResultOOK, ResultONG, Regions, row_2,\
+                                    column_2, WindowID, out_temp_error)              </l>
+<l>*         stop ()</l>
+<l>        count_seconds (S2)</l>
+<l>        Show_Weld_Results (Image_AffinTrans, ResultONG, ResultOOK, Regions, WindowID, NumNG)</l>
+<c>               </c>
+<l>        Msg:=[]</l>
+<l>        Msg[0]:='序号：'+Index</l>
+<l>        Msg[1]:='运行时间：'+(S2-S1)*1000+' ms'</l>
+<l>        disp_message (WindowID, Msg, 'window', 25, 25, 'green', 'false')</l>
+<c>        ***********</c>
+<l>        dev_get_window (WindowID)</l>
+<l>        get_window_extents (WindowID, Row1, Column1, Width1, Height1)</l>
+<l>        dev_set_window_extents (0, 0, Width, Height)       </l>
+<l>        dump_window_image (Img, WindowID)</l>
+<c>        </c>
+<l>        if (NumNG&gt;0)</l>
+<l>            write_image (Img, 'jpg', 0, ImagePath+'/ResultOK/NG/'+Index+' '+afileBaseName) </l>
+<l>        else</l>
+<l>            write_image (Img, 'jpg', 0, ImagePath+'/ResultOK/OK/'+Index+' '+afileBaseName) </l>
+<l>        endif</l>
+<l>    endif</l>
+<l>*     stop ()</l>
+<l>endfor</l>
+<c></c>
+<c></c>
+<c></c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+<procedure name="str_Welding_recognition_YL">
+<interface>
+<io>
+<par name="Image" base_type="iconic" dimension="0"/>
+<par name="Image_AffinTrans" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ResultOOK" base_type="iconic" dimension="0"/>
+<par name="ResultONG" base_type="iconic" dimension="0"/>
+<par name="Regions" base_type="iconic" dimension="0"/>
+</oo>
+<ic>
+<par name="row_2" base_type="ctrl" dimension="0"/>
+<par name="column_2" base_type="ctrl" dimension="0"/>
+<par name="WindowID" base_type="ctrl" dimension="0"/>
+</ic>
+<oc>
+<par name="out_temp_error" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<c>* 输出缺陷</c>
+<l>out_temp_error := 0</l>
+<c>* 起始位置Y</c>
+<l>Q_row := -390</l>
+<c>* 起始位置X</c>
+<l>Q_column := -570</l>
+<c>* 每个焊接位置的间距</c>
+<l>Q_HJ_spacing := 385</l>
+<c>* 每次偏移位置累加</c>
+<l>Q_PY_temp_spacing := Q_column+0</l>
+<l>dev_display (Image_AffinTrans)</l>
+<l>gen_empty_obj (ResultOOK)</l>
+<l>gen_empty_obj (ResultONG)</l>
+<l>gen_empty_obj (ConnectedRegions)</l>
+<l>gen_empty_obj (RegionsSelected)</l>
+<l>gen_empty_obj (Regions)</l>
+<c></c>
+<l>get_image_size (Image_AffinTrans, Width, Height)</l>
+<c>* 待定</c>
+<l>emphasize (Image_AffinTrans, ImageAffin, Width, Height, 2)</l>
+<l>scale_image_range (ImageAffin, ImageScaled1, 1,75)</l>
+<l>scale_image_range (ImageAffin, ImageScaled2, 90,1)</l>
+<c></c>
+<c>* 提取四焊点区域</c>
+<l>binary_threshold (ImageScaled1, ScaledWeld1, 'max_separability', 'light',  Thresh1)</l>
+<l>connection (ScaledWeld1, ConnectedWeld1)</l>
+<l>select_shape (ConnectedWeld1, SelectedRegions1, ['area','height','width'],\
+              'and',[240000,200,1100],[350000,350,1800])</l>
+<c></c>
+<l>binary_threshold (ImageScaled2, ScaledWeld2, 'max_separability', 'dark', Thresh2)</l>
+<l>connection (ScaledWeld2, ConnectedWeld2)</l>
+<l>select_shape (ConnectedWeld2, SelectedRegions2, ['area','height','width'],\
+              'and',[240000,200,1100],[350000,350,1800])</l>
+<c>* 新增20180531</c>
+<l>try</l>
+<l>    union2(SelectedRegions1,SelectedRegions2, RegionUnion)  </l>
+<l>    smallest_rectangle1 (RegionUnion,Row11,Column11,Row21,Column21)</l>
+<l>    gen_rectangle1(Rectangle,Row11+50,Column11,Row11+110,Column21)</l>
+<l>catch (Exception)</l>
+<l>    gen_empty_obj (Rectangle)</l>
+<l>endtry</l>
+<l>* stop ()</l>
+<l>for I := 0 to 3 by 1</l>
+<l>    gen_rectangle2 (Rectangle1, row_2+(Q_row), column_2+(Q_PY_temp_spacing), 0,\
+                    100, 90)</l>
+<c>    * 测试位置</c>
+<l>    if (I=1)</l>
+<l>        Q_PY_temp_spacing := Q_PY_temp_spacing+Q_HJ_spacing+30</l>
+<l>    else</l>
+<l>        Q_PY_temp_spacing := Q_PY_temp_spacing+Q_HJ_spacing</l>
+<l>    endif</l>
+<l>    smallest_rectangle1 (Rectangle1,Row1,Column1,Row2,Column2)</l>
+<l>    h_row := Row2-Row1</l>
+<l>    cr_w := Column2-Column1</l>
+<l>    stop () </l>
+<c>    * 新增20180531</c>
+<l>    count_obj (Rectangle, Number)</l>
+<l>    if (Number&gt;0)</l>
+<l>        intersection (Rectangle, Rectangle1, Rect)</l>
+<l>    else</l>
+<l>        intersection (Rectangle1, Rectangle1, Rect) </l>
+<l>    endif</l>
+<l>    stop ()</l>
+<l>    reduce_domain (ImageScaled1, Rect, ImageReduced1)</l>
+<l>    reduce_domain (ImageScaled2, Rect, ImageReduced2)</l>
+<l>    reduce_domain (ImageAffin,   Rect, ImageReduced3)</l>
+<c>    * **********************************************</c>
+<c>    * 提取漏焊大孔位</c>
+<l>    binary_threshold (ImageReduced1, RegionReduced1, 'max_separability', 'dark', UThresh1)</l>
+<l>    binary_threshold (ImageReduced2, RegionReduced2, 'max_separability', 'light', UThresh2)</l>
+<l>    binary_threshold (ImageReduced3, RegionReduced3, 'max_separability', 'dark', UThresh3)</l>
+<l>    intersection (RegionReduced1, RegionReduced2, RegionIntersection)</l>
+<c>    * 新增20180603</c>
+<l>    opening_rectangle1 (RegionIntersection, RegionIntersection, 1,8)</l>
+<c>    ************************************************</c>
+<l>    fill_up (RegionReduced3, RegionReduced3)</l>
+<l>    erosion_rectangle1 (RegionReduced3, RegionErosion, 15,15)//8 8</l>
+<l>    dilation_rectangle1 (RegionErosion, RegionErosion, 15, 15)</l>
+<l>    union2 (RegionErosion, RegionIntersection, RegionIntersection) </l>
+<c>    ************************************************</c>
+<l>*     intersection (RegionIntersection, RegionReduced3,RegionIntersection)</l>
+<l>    connection (RegionIntersection, ConnectedRegions)</l>
+<c>    * 提取目标特征</c>
+<l>    select_shape_std (ConnectedRegions,SelectedRegions, 'max_area', 70)</l>
+<l>    select_shape (SelectedRegions, SelectedRegions, 'area', 'and', 560, 999999)//580</l>
+<l>    select_shape (SelectedRegions, SelectedRegions, 'height', 'and', 5, 67)</l>
+<l>    select_shape (SelectedRegions, SelectedRegions, 'width', 'and', 30, 99999)//35</l>
+<l>    select_shape (SelectedRegions, SelectedRegions, 'bulkiness', 'and', 0, 2.23)//2.65</l>
+<c>    *******************************************</c>
+<c>    *******************************************</c>
+<l>    count_obj (SelectedRegions, Num1)</l>
+<c>    ******************************************* </c>
+<l>    if (Num1&gt;0)  </l>
+<l>        concat_obj (ResultONG, Rectangle1, ResultONG)      </l>
+<l>        out_temp_error := out_temp_error+1</l>
+<l>    else</l>
+<l>        concat_obj (ResultOOK, Rectangle1, ResultOOK)</l>
+<l>    endif</l>
+<l>    concat_obj (Regions, SelectedRegions,Regions)</l>
+<c>    ******************************************</c>
+<c>    ******************************************</c>
+<l>*     stop ()</l>
+<l>endfor</l>
+<l>return ()</l>
+</body>
+<docu id="str_Welding_recognition_YL">
+<parameters>
+<parameter id="Image"/>
+<parameter id="Image_AffinTrans"/>
+<parameter id="Regions"/>
+<parameter id="ResultONG"/>
+<parameter id="ResultOOK"/>
+<parameter id="WindowID"/>
+<parameter id="column_2"/>
+<parameter id="out_temp_error"/>
+<parameter id="row_2"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Show_Weld_Results">
+<interface>
+<io>
+<par name="Image_AffinTrans" base_type="iconic" dimension="0"/>
+<par name="ResultONG" base_type="iconic" dimension="0"/>
+<par name="ResultOOK" base_type="iconic" dimension="0"/>
+<par name="SelectedRegions" base_type="iconic" dimension="0"/>
+</io>
+<ic>
+<par name="WindowID" base_type="ctrl" dimension="0"/>
+</ic>
+<oc>
+<par name="NumNG" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<l>dev_display (Image_AffinTrans)</l>
+<l>dev_set_color ('red')</l>
+<l>dev_display (ResultONG)</l>
+<l>dev_display (SelectedRegions)</l>
+<l>dev_set_color ('green')</l>
+<l>dev_display (ResultOOK)</l>
+<l>count_obj (ResultOOK, NumOK)</l>
+<l>count_obj (ResultONG, NumNG)</l>
+<l>for j := 1 to NumOK by 1</l>
+<l>    dev_set_color ('green')</l>
+<l>    select_obj (ResultOOK, SelectedObjectOK, j)</l>
+<l>    smallest_circle (SelectedObjectOK, RowOK, ColumnOK, Radius)</l>
+<l>    set_tposition (3600, RowOK+200, ColumnOK-50)</l>
+<l>    write_string (3600, 'OK')</l>
+<l>endfor</l>
+<c>* </c>
+<l>for k := 1 to NumNG by 1</l>
+<l>    dev_set_color ('red')</l>
+<l>    select_obj (ResultONG, SelectedObjectNG, k)</l>
+<l>    smallest_circle (SelectedObjectNG, RowNG, ColumnNG, Radius)</l>
+<l>    set_tposition (3600, RowNG+200, ColumnNG-50)</l>
+<l>    write_string (3600, 'NG')</l>
+<l>endfor</l>
+<l>return ()</l>
+</body>
+<docu id="Show_Weld_Results">
+<parameters>
+<parameter id="Image_AffinTrans"/>
+<parameter id="NumNG"/>
+<parameter id="ResultONG"/>
+<parameter id="ResultOOK"/>
+<parameter id="SelectedRegions"/>
+<parameter id="WindowID"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Star_AffineTransImage">
+<interface>
+<io>
+<par name="Image" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ImageGauss1_AffinTrans" base_type="iconic" dimension="0"/>
+</oo>
+<ic>
+<par name="Height" base_type="ctrl" dimension="0"/>
+<par name="Width" base_type="ctrl" dimension="0"/>
+</ic>
+</interface>
+<body>
+<l>try</l>
+<c>    * 3X3模糊图像</c>
+<l>    gauss_image (Image, ImageGauss1, 2.5)</l>
+<l>    scale_image_range (ImageGauss1, ImageScaled , 30, 100)    </l>
+<l>    threshold (ImageScaled , Region, 0,200)//70//180</l>
+<l>    connection (Region, ConnectedRegions)</l>
+<l>    select_shape (ConnectedRegions, SelectedRegions, 'area', \
+                  'and', 300000, 999999999)</l>
+<l>    fill_up (SelectedRegions, RegionFillUp)</l>
+<l>    union1 (RegionFillUp, RegionUnion)</l>
+<l>    smallest_rectangle1 (RegionUnion, Row11, Column11, Row21, Column21)</l>
+<c>    * 提取接线盒上半部分</c>
+<l>    gen_rectangle1 (Rectangle2, 0, 0, Row21-(Row21*0.5), Width)</l>
+<l>    intersection (Rectangle2, RegionFillUp, RegionIntersection1)</l>
+<l>    erosion_rectangle1 (RegionIntersection1, RegionErosion1, 251, 151)</l>
+<l>    dilation_rectangle1 (RegionErosion1, RegionDilation, 251, 151)</l>
+<c>    * 提取接线盒下半部分</c>
+<l>    difference (RegionFillUp, Rectangle2, RegionDifference)</l>
+<l>    erosion_rectangle1 (RegionDifference, RegionErosion2, 25, 25)</l>
+<l>    dilation_rectangle1 (RegionErosion2, RegionDilation1, 25, 25)</l>
+<c>    * 合并接线盒上下部分</c>
+<l>    union2 (RegionDilation, RegionDilation1, RegionUnion1)</l>
+<l>    union1 (RegionUnion1, RegionUnion2)</l>
+<c>    </c>
+<l>    smallest_rectangle2 (RegionUnion2, Row3, Column3, Phi1, Length11, Length21)</l>
+<l>    if (Phi1&lt;-0.5 or Phi1&gt;0.5)</l>
+<c>        * 从点和角度计算一个刚性的仿射变换</c>
+<l>        vector_angle_to_rigid (Row3, Column3, Phi1, Row3, Column3, rad(180), HomMat2D)</l>
+<l>    else</l>
+<c>        * 从点和角度计算一个刚性的仿射变换</c>
+<l>        vector_angle_to_rigid (Row3, Column3, Phi1, Row3, Column3, rad(0), HomMat2D)</l>
+<l>    endif</l>
+<l>    affine_trans_image (ImageGauss1, ImageGauss1_AffinTrans, HomMat2D, 'constant', 'false')</l>
+<c>    * </c>
+<l>catch (Exception)</l>
+<l>    copy_obj (ImageGauss1, ImageGauss1_AffinTrans, 1, 1)</l>
+<l>endtry</l>
+<l>return ()</l>
+<c></c>
+<c></c>
+</body>
+<docu id="Star_AffineTransImage">
+<parameters>
+<parameter id="Height"/>
+<parameter id="Image"/>
+<parameter id="ImageGauss1_AffinTrans"/>
+<parameter id="Width"/>
+</parameters>
+</docu>
+</procedure>
+</hdevelop>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="12.0">
+<procedure name="main">
+<interface/>
+<body>
+<c></c>
+<l>ImageName := 'F:/A02 三厂五车间B区/2018年07月04日 白班/焊后条码识别/OK'</l>
+<c></c>
+<c></c>
+<l>dev_close_window ()</l>
+<l>close_all_framegrabbers ()</l>
+<c>*读取图像</c>
+<l>read_image (Image, ImageName+'/001.jpg')</l>
+<c> </c>
+<l>get_image_size (Image, Width, Height)</l>
+<c>*新建窗口</c>
+<l>dev_open_window (0, 0, Width*0.5, Height*0.5, 'black', WindowID)</l>
+<c>*设置字体大小</c>
+<l>set_display_font (WindowID, 21, 'mono', 'true', 'false')</l>
+<c></c>
+<c>*设置区域显示模式（轮廓）</c>
+<l>dev_set_draw ('margin')</l>
+<l>* dev_set_color ('red')</l>
+<l>dev_display (Image)</l>
+<c></c>
+<l>list_files (ImageName, ['files','follow_links'], ImageFiles)</l>
+<l>tuple_regexp_select (ImageFiles, ['\\.(|bmp|jpg)$','ignore_case'], ImageFiles)</l>
+<l>for Index :=1 to |ImageFiles| - 1 by 1</l>
+<l>    read_image (Image, ImageFiles[Index])</l>
+<c>    * Do something</c>
+<l>    dev_resize_window_fit_image (Image, 0, 0, -1, -1)</l>
+<l>    dev_set_color ('red')</l>
+<l>    get_image_size (Image, Width, Height)</l>
+<l>    count_seconds (S1)</l>
+<c>    *条码类型</c>
+<l>    Decoded_name:='Code 128'</l>
+<l>    dev_display (Image)</l>
+<l>    gen_rectangle1 (Rectangle_SN, 100, 100, Height-100, Width-100)</l>
+<l>    dev_display (Rectangle_SN)</l>
+<l>    reduce_domain (Image, Rectangle_SN, ImageReduced5)</l>
+<l>*     scale_image_max (ImageReduced5, ImageReduced5)</l>
+<l>*     scale_image (ImageReduced5,ImageReduced5, 1.5, 0)</l>
+<l>    scale_image_range (ImageReduced5, ImageReduced5, 100, 200)</l>
+<l>    create_bar_code_model ([], [], BarCodeHandle)</l>
+<c>    * We expect to decode a single bar code per image</c>
+<l>    set_bar_code_param (BarCodeHandle, 'stop_after_result_num', 1)</l>
+<c>    * Read bar code, the resulting string includes the check character</c>
+<l>    set_bar_code_param (BarCodeHandle, 'check_char', 'absent')</l>
+<c>    </c>
+<l>    find_bar_code (ImageReduced5, SymbolRegions, BarCodeHandle, \
+                   Decoded_name, DecodedDataStrings)   </l>
+<l>    count_obj (SymbolRegions, Decoded_Number)</l>
+<l>    count_seconds (S2)</l>
+<l>    S:=S2-S1</l>
+<l>    dev_clear_window ()</l>
+<l>    dev_display (ImageReduced5)</l>
+<l>    if (Decoded_Number&gt;0)</l>
+<l>        try</l>
+<l>            dev_set_color ('red')</l>
+<l>            dev_display (SymbolRegions)</l>
+<l>            disp_message (WindowID, '条码:'+DecodedDataStrings+'  '+S, 'image', \
+                          100, 100, 'green', 'false')</l>
+<l>        catch (Exception)</l>
+<l>            disp_message (WindowID, '条码识别失败', 'image', \
+                          100,  100, 'red', 'false')</l>
+<l>        endtry</l>
+<l>    endif</l>
+<l>    disp_message (WindowID, Index, 'image', 100,  100, 'red', 'false')                         </l>
+<l>    clear_bar_code_model (BarCodeHandle)</l>
+<c></c>
+<l>    stop ()    </l>
+<l>endfor</l>
+<c></c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

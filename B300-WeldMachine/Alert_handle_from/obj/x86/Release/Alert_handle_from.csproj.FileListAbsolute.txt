@@ -1,0 +1,44 @@
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\bin\Release\Alert_handle_from.exe
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+D:\Downloads\接线盒检测-20171215\一体机-晶科-20180124\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\bin\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180126\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\bin\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\bin\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180308\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.exe.config
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.exe
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+D:\软件程序\B300焊接机-201807011（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.exe.config
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.exe
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\bin\Release\Alert_handle_from.pdb
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.Form1.resources
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.Properties.Resources.resources
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.csproj.GenerateResource.Cache
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.exe
+D:\软件程序\B300焊接机-201807025（晶科&英利 ）\Alert_handle_from\obj\x86\Release\Alert_handle_from.pdb

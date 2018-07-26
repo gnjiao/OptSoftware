@@ -1,0 +1,50 @@
+//TMCL disassembly at 05-03-2017 16:57:30
+          WAIT TICKS, 0, 100
+          SAP 6, 0, 250
+          SAP 140, 0, 7
+          SAP 6, 0, 250
+          SAP 4, 1, 1600
+          SGP 1, 2, 800
+          SGP 2, 2, -1000
+          SGP 1, 2, 1
+          SGP 0, 2, 0
+
+Lbl9:     GGP 1, 2
+          JC ZE, Lbl9
+          SGP 1, 2, 0
+          SGP 21, 2, 0
+          GGP 1, 2
+          WAIT TICKS, 0, 50
+          GIO 2, 0
+          JC NZ, Lbl18
+          ROL 1, 1600
+
+Lbl18:    GIO 2, 0
+          JC ZE, Lbl18
+          MST 1
+          SAP 1, 1, 0
+          MVP REL, 1, 100
+          SGP 21, 2, 1
+
+Lbl24:    GGP 0, 2
+          JC NZ, Lbl29
+          GGP 1, 2
+          JC NZ, Lbl9
+          JA Lbl24
+
+Lbl29:    SGP 21, 2, 0
+          SGP 0, 2, 0
+          GGP 1, 2
+          ROR 1, 1800
+
+Lbl33:    GIO 1, 0
+          JC ZE, Lbl33
+          MST 1
+          SAP 1, 1, 0
+          GGP 2, 2
+          MVP REL, 1, 0
+          AAP 0, 1
+          WAIT POS, 1, 0
+          SGP 21, 2, 1
+          JA Lbl24
+          STOP 

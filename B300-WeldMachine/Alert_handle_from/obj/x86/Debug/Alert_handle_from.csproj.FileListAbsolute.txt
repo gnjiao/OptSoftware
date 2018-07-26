@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\bin\Debug\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\bin\Debug\Alert_handle_from.pdb
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Debug\Alert_handle_from.Form1.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Debug\Alert_handle_from.Properties.Resources.resources
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Debug\Alert_handle_from.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Debug\Alert_handle_from.exe
+C:\Users\Administrator\Desktop\一体机-晶科-20180203\Alert_handle_from\obj\x86\Debug\Alert_handle_from.pdb

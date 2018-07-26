@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="12.0">
+<procedure name="main">
+<interface/>
+<body>
+<c></c>
+<l>* ImagePath:='F:/A01 三厂五车间A区/2018年04月16日 夜班/焊后正面识别'</l>
+<l>* ImagePath:='F:/A01 三厂五车间A区/2018年04月17日 夜班/焊后正面识别'</l>
+<c></c>
+<l>* ImagePath:='F:/A02 三厂五车间B区/2018年07月03日 夜班/焊后正面识别'</l>
+<l>ImagePath:='F:/A01 三厂五车间A区/2018年07月03日 白班/焊后正面识别'</l>
+<l>dev_close_window ()</l>
+<c></c>
+<l>list_files (ImagePath+'/OK', ['files','follow_links'], ImageFiles)</l>
+<l>tuple_regexp_select (ImageFiles, ['\\.(bmp|jpg)$','ignore_case'], ImageFiles)</l>
+<l>read_image (Image, ImagePath+'/PP')</l>
+<l>get_image_size (Image, Width, Height)</l>
+<c>* 新建窗口</c>
+<l>dev_open_window (0, 0, Width*0.52, Height*0.52, 'black', WindowID)</l>
+<c>* 设置字体大小</c>
+<l>set_display_font (WindowID, 24, 'mono', 'true', 'false')</l>
+<l>dev_resize_window_fit_image (Image, 0, 0, -1, -1)</l>
+<l>* dev_display (Image)</l>
+<c>*设置区域显示模式（轮廓）</c>
+<l>dev_set_draw ('margin')</l>
+<c>*建立模板之前先做图像角度矫正</c>
+<l>Star_AffineTransImage (Image, ImageGauss1_AffinTrans, Height, Width)</l>
+<l>dev_display (ImageGauss1_AffinTrans)</l>
+<c>*模板位置 06</c>
+<l>* draw_rectangle2 (WindowID, Row3, Column3, Phi, Length1, Length2)</l>
+<l>gen_rectangle2 (Rectangle, 845, 1380, 0, 490, 372)</l>
+<l>reduce_domain (ImageGauss1_AffinTrans, Rectangle, ImageReduced)</l>
+<l>crop_domain (ImageReduced, ImagePart)</l>
+<l>zoom_image_factor (ImagePart, ImageZoomed, 0.5, 0.5, 'constant')</l>
+<c>*建立模板</c>
+<l>pi := acos(0.0) * 2</l>
+<l>create_template_rot (ImageZoomed, 4, -pi, 2 * pi, pi / 45, 'sort', 'original', TemplateID)</l>
+<c>*NG数量统计</c>
+<l>error:=0</l>
+<l>for Index := 0 to |ImageFiles| - 1 by 1</l>
+<l>    read_image (Image, ImageFiles[Index])</l>
+<l>    rgb1_to_gray (Image, Image)</l>
+<c>    * 获得图像位置信息</c>
+<l>    parse_filename(ImageFiles[Index],afileBaseName,afileExt,afileDir)</l>
+<l>    dev_set_color ('red') </l>
+<l>    get_image_size (Image, Width, Height)</l>
+<l>    Star_AffineTransImage (Image, Image_AffinTrans, Height, Width)</l>
+<l>    dev_clear_window ()</l>
+<l>    zoom_image_factor (Image_AffinTrans, ImageZoomed1, 0.5, 0.5, 'constant')</l>
+<c>    * 匹配位置</c>
+<l>    best_match_rot_mg (ImageZoomed1, TemplateID, -pi, 2 * pi, 40, 'true', 4, Row, Column, Angle, Error)</l>
+<l>    dev_display (Image_AffinTrans)</l>
+<l>    disp_arrow (WindowID, Row*2, Column*2, Row*2 - cos(Angle) * 50, Column*2 - sin(Angle) * 50, 15)</l>
+<l>    if (Error&lt;25)  </l>
+<l>        row_2:=Row*2</l>
+<l>        column_2:=Column*2 </l>
+<l>        count_seconds (S1)</l>
+<c>        ******************************************************************************</c>
+<c>        ******************************************************************************</c>
+<l>        str_Welding_recognition_JK (Image, Image_AffinTrans, ResultOOK, ResultONG,\
+                                         row_2, column_2, WindowID, out_temp_error)</l>
+<c></c>
+<l>        Show_Weld_Results (Image_AffinTrans, ResultONG, ResultOOK, WindowID, NumNG)</l>
+<c>        ******************************************************************************</c>
+<c>        ******************************************************************************</c>
+<l>        count_seconds (S2)</l>
+<l>        Msg:=[]</l>
+<l>        Msg[0]:='序号：'+Index</l>
+<l>        Msg[1]:='运行时间：'+(S2-S1)*1000+' ms'</l>
+<l>        disp_message (WindowID, Msg, 'window', 25, 25, 'green', 'false')</l>
+<c>         </c>
+<l>        dump_window_image (Img, WindowID)</l>
+<l>        if (NumNG&gt;0)</l>
+<l>            write_image (Img, 'jpg', 0, ImagePath+'/ResultOK/NG/'+Index+' '+afileBaseName) </l>
+<l>        else</l>
+<l>            write_image (Img, 'jpg', 0, ImagePath+'/ResultOK/OK/'+Index+' '+afileBaseName) </l>
+<l>        endif</l>
+<l>    endif</l>
+<l>*     stop ()</l>
+<l>endfor</l>
+<c></c>
+<c></c>
+<c></c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+<procedure name="str_Welding_recognition_JK">
+<interface>
+<io>
+<par name="Image" base_type="iconic" dimension="0"/>
+<par name="Image_AffinTrans" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ResultOOK" base_type="iconic" dimension="0"/>
+<par name="ResultONG" base_type="iconic" dimension="0"/>
+</oo>
+<ic>
+<par name="row_2" base_type="ctrl" dimension="0"/>
+<par name="column_2" base_type="ctrl" dimension="0"/>
+<par name="WindowID" base_type="ctrl" dimension="0"/>
+</ic>
+<oc>
+<par name="out_temp_error" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<c>* 输出缺陷</c>
+<l>out_temp_error := 0</l>
+<c>* 起始位置Y</c>
+<l>Q_row := 400//4540</l>
+<c>* 起始位置X</c>
+<l>Q_column := -600//-560</l>
+<c>* 每个焊接位置的间距</c>
+<l>Q_HJ_spacing := 360//385</l>
+<c>* 每次偏移位置累加</c>
+<l>Q_PY_temp_spacing := Q_column+0</l>
+<l>dev_display (Image_AffinTrans)</l>
+<l>gen_empty_obj (ResultOOK)</l>
+<l>gen_empty_obj (ResultONG)</l>
+<c></c>
+<l>scale_image_range (Image_AffinTrans, ImageScaled1, 100,150)</l>
+<l>scale_image_range (Image_AffinTrans, ImageScaled2, 90,  91)</l>
+<c>* 焊点交集20180707</c>
+<l>* dev_set_draw ('fill')</l>
+<l>Weld_Pretreatment (ImageScaled2, UnionRegion, Number)</l>
+<c></c>
+<c></c>
+<c></c>
+<l>for I := 0 to 3 by 1 </l>
+<c>    * 焊点交集20180707</c>
+<l>    if (Number=4)</l>
+<l>          gen_rectangle2 (Rectangle1,row_2+(Q_row), column_2+(Q_PY_temp_spacing), \
+                    0, 130, 80)//88 80</l>
+<l>      intersection (Rectangle1, UnionRegion,Rectangle1)</l>
+<l>    else</l>
+<l>      gen_rectangle2 (Rectangle1,row_2+(Q_row), column_2+(Q_PY_temp_spacing), \
+                    0, 88, 80)//88 80</l>
+<l>    endif</l>
+<c>    </c>
+<c>    </c>
+<c>    * 测试位置</c>
+<l>    Q_PY_temp_spacing := Q_PY_temp_spacing+Q_HJ_spacing</l>
+<l>    reduce_domain (Image_AffinTrans, Rectangle1, ImageReduced)</l>
+<l>    reduce_domain (ImageScaled2, Rectangle1, ImageReduced1)</l>
+<l>*     stop ()</l>
+<l>    get_image_size (Image_AffinTrans, Width, Height)</l>
+<l>    smallest_rectangle1 (Rectangle1, Row1, Column1, Row2, Column2)</l>
+<l>    h_row := Row2-Row1</l>
+<l>    cr_w := Column2-Column1</l>
+<c>    ******************************************************************</c>
+<c>    ******************************************************************</c>
+<c>    * 在此处写入主程序</c>
+<c>    * AA 查找漏焊缺陷</c>
+<l>    Weld_Edge_Length_JK (ImageReduced, Rectangle1, ObjectEdge, EdgeNum1, EdgeNum2)</l>
+<c>    </c>
+<l>    EdgeNum1:=0</l>
+<l>    if (EdgeNum1&lt;=0 or EdgeNum2&lt;=0)</l>
+<c>        * BB 查找锡流失或虚焊</c>
+<l>        Weld_Rosin_Joint_JK (ImageReduced, Rectangle1, ObjectRJ, RJNum)</l>
+<l>*         stop ()</l>
+<l>    else</l>
+<l>        RJNum:=0</l>
+<l>    endif  </l>
+<c>    ********************************************************</c>
+<l>    if (RJNum&lt;=0)</l>
+<c>        * CC 检测焊锡的包裹度(老算法第五种缺陷)</c>
+<l>        Weld_Loss_Area_JK (ImageReduced, Rectangle1, LSNum)</l>
+<l>    else</l>
+<l>        LSNum:=0</l>
+<l>    endif</l>
+<c>    </c>
+<l>    if (LSNum&lt;=0)</l>
+<c>        * DD 查找存黑色虚焊</c>
+<l>        Pure_Black_Welding_JK (ImageReduced1, Rectangle1, PBNum)</l>
+<l>    else</l>
+<l>        PBNum:=0</l>
+<l>    endif</l>
+<l>*     dev_display (Image_AffinTrans)</l>
+<l>*     dev_display (ObjectEdge)</l>
+<l>*     stop ()</l>
+<c>    ******************************************************************</c>
+<c>    ******************************************************************</c>
+<c>    * 结果判断</c>
+<l>    dev_display (Image_AffinTrans)</l>
+<l>    dev_display (ObjectEdge)</l>
+<l>    dev_display (ObjectRJ)</l>
+<l>    if (EdgeNum1&gt;0 or  EdgeNum2&gt;0 or RJNum&gt;0 or LSNum&gt;0 or PBNum&gt;0)</l>
+<l>        concat_obj (ResultONG, Rectangle1, ResultONG)</l>
+<l>        out_temp_error := out_temp_error+1</l>
+<l>    else</l>
+<l>        concat_obj (ResultOOK, Rectangle1, ResultOOK)</l>
+<l>    endif</l>
+<c>    ******************************************************************</c>
+<c>    ******************************************************************</c>
+<l>*     stop ()</l>
+<l>endfor</l>
+<l>return ()</l>
+</body>
+<docu id="str_Welding_recognition_JK">
+<parameters>
+<parameter id="Image"/>
+<parameter id="Image_AffinTrans"/>
+<parameter id="ResultONG"/>
+<parameter id="ResultOOK"/>
+<parameter id="WindowID"/>
+<parameter id="column_2"/>
+<parameter id="out_temp_error"/>
+<parameter id="row_2"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Show_Weld_Results">
+<interface>
+<io>
+<par name="Image_AffinTrans" base_type="iconic" dimension="0"/>
+<par name="ResultONG" base_type="iconic" dimension="0"/>
+<par name="ResultOOK" base_type="iconic" dimension="0"/>
+</io>
+<ic>
+<par name="WindowID" base_type="ctrl" dimension="0"/>
+</ic>
+<oc>
+<par name="NumNG" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<l>dev_display (Image_AffinTrans)</l>
+<l>dev_set_color ('red')</l>
+<l>dev_display (ResultONG)</l>
+<l>dev_set_color ('green')</l>
+<l>dev_display (ResultOOK)</l>
+<l>count_obj (ResultOOK, NumOK)</l>
+<l>count_obj (ResultONG, NumNG)</l>
+<l>for j := 1 to NumOK by 1</l>
+<l>    dev_set_color ('green')</l>
+<l>    select_obj (ResultOOK, SelectedObjectOK, j)</l>
+<l>    smallest_circle (SelectedObjectOK, RowOK, ColumnOK, Radius)</l>
+<l>    set_tposition (3600, RowOK+200, ColumnOK-50)</l>
+<l>    write_string (3600, 'OK')</l>
+<l>endfor</l>
+<c>* </c>
+<l>for k := 1 to NumNG by 1</l>
+<l>    dev_set_color ('red')</l>
+<l>    select_obj (ResultONG, SelectedObjectNG, k)</l>
+<l>    smallest_circle (SelectedObjectNG, RowNG, ColumnNG, Radius)</l>
+<l>    set_tposition (3600, RowNG+200, ColumnNG-50)</l>
+<l>    write_string (3600, 'NG')</l>
+<l>endfor</l>
+<l>return ()</l>
+</body>
+<docu id="Show_Weld_Results">
+<parameters>
+<parameter id="Image_AffinTrans"/>
+<parameter id="NumNG"/>
+<parameter id="ResultONG"/>
+<parameter id="ResultOOK"/>
+<parameter id="WindowID"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Star_AffineTransImage">
+<interface>
+<io>
+<par name="Image" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ImageGauss1_AffinTrans" base_type="iconic" dimension="0"/>
+</oo>
+<ic>
+<par name="Height" base_type="ctrl" dimension="0"/>
+<par name="Width" base_type="ctrl" dimension="0"/>
+</ic>
+</interface>
+<body>
+<l>try</l>
+<c>    * 图像预处理</c>
+<l>    gauss_image (Image, ImageGauss1, 2.5)</l>
+<l>    scale_image_range (ImageGauss1,ImageGauss2, 50, 90)   </l>
+<c>    * 提取整个黑色接线盒</c>
+<l>    threshold (ImageGauss2, Region, 0, 40)</l>
+<l>    connection (Region, ConnectedRegions)</l>
+<l>    select_shape (ConnectedRegions, SelectedRegions, 'area', 'and', 300000, 999999999)</l>
+<l>    fill_up (SelectedRegions, RegionFillUp)</l>
+<l>    union1 (RegionFillUp, RegionUnion)</l>
+<c>    * 提取黑色接线盒上半部分</c>
+<l>    smallest_rectangle1 (RegionUnion, Row11, Column11, Row21, Column21)</l>
+<l>    gen_rectangle1 (Rectangle2, 0, 0, Row21-(Row21*0.5)+80, Width)</l>
+<l>    intersection (Rectangle2, RegionFillUp, RegionIntersection1)</l>
+<l>    erosion_rectangle1 (RegionIntersection1, RegionErosion1, 251, 151)</l>
+<l>    dilation_rectangle1 (RegionErosion1, RegionDilation, 251, 151)</l>
+<c>    * 提取黑色接线盒下半部分</c>
+<l>    difference (RegionFillUp, Rectangle2, RegionDifference)</l>
+<l>    erosion_rectangle1 (RegionDifference, RegionErosion2, 25, 25)</l>
+<l>    dilation_rectangle1 (RegionErosion2, RegionDilation1, 25, 25)</l>
+<c>    * 合并接线盒上下部分</c>
+<l>    union2 (RegionDilation, RegionDilation1, RegionUnion1)</l>
+<c>    * 修改20180604</c>
+<l>*     union1 (RegionUnion1, RegionUnion2)   </l>
+<l>    union1 (RegionDilation1, RegionUnion2)</l>
+<c>    * 计算接线盒的先关坐标</c>
+<l>    smallest_rectangle2 (RegionUnion2, Row3, Column3, Phi1, Length11, Length21)</l>
+<c></c>
+<l>    if (Phi1&lt;-0.5 or Phi1&gt;0.5)</l>
+<c>        * 从点和角度计算一个刚性的仿射变换</c>
+<l>        vector_angle_to_rigid (Row3, Column3, Phi1, Row3, Column3, rad(180), HomMat2D)</l>
+<l>    else</l>
+<c>        * 从点和角度计算一个刚性的仿射变换</c>
+<l>        vector_angle_to_rigid (Row3, Column3, Phi1, Row3, Column3, rad(0), HomMat2D)</l>
+<l>    endif</l>
+<c>    * 旋转图像</c>
+<l>    affine_trans_image (ImageGauss1, ImageGauss1_AffinTrans, HomMat2D, 'constant', 'false') </l>
+<l>catch (Exception)</l>
+<l>    copy_obj (ImageGauss1, ImageGauss1_AffinTrans, 1, 1)</l>
+<l>endtry</l>
+<l>* stop ()</l>
+<l>return ()</l>
+<c></c>
+</body>
+<docu id="Star_AffineTransImage">
+<parameters>
+<parameter id="Height"/>
+<parameter id="Image"/>
+<parameter id="ImageGauss1_AffinTrans"/>
+<parameter id="Width"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Weld_Edge_Length_JK">
+<interface>
+<io>
+<par name="ImageReduced" base_type="iconic" dimension="0"/>
+<par name="Rectangle1" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ObjectEdge" base_type="iconic" dimension="0"/>
+</oo>
+<oc>
+<par name="EdgeNum1" base_type="ctrl" dimension="0"/>
+<par name="EdgeNum2" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<c>******xxxxxxx******20180418参数设置</c>
+<c>* 最大单个边界A01</c>
+<l>Z2_L_height_max:=80</l>
+<c>* 出现2条边界的允许长度A02</c>
+<l>Z2_L_height_min_:=60</l>
+<c>* 汇流条边界识别阈值A03</c>
+<l>Z2_L_dyn_threshold_:=12</l>
+<c>******xxxxxxx******20180418参数设置</c>
+<c></c>
+<c>* 计算焊点区域的高度和宽度</c>
+<l>smallest_rectangle1 (Rectangle1, Row1, Column1, Row2, Column2)</l>
+<l>h_row := Row2-Row1</l>
+<l>cr_w := Column2-Column1   </l>
+<c>* 提取漏焊汇流条</c>
+<l>* scale_image_range (ImageReduced,ImageReduced, 100,150)</l>
+<c>* 提取漏焊接时汇流条左右边界</c>
+<l>mean_image (ImageReduced, ImageMean1, 1, 30)</l>
+<l>mean_image (ImageMean1, ImageMean2, 13, 1)</l>
+<l>dyn_threshold (ImageMean1, ImageMean2, RegionDynThresh, Z2_L_dyn_threshold_, 'dark')</l>
+<l>dilation_rectangle1 (RegionDynThresh, RegionDilation, 1, 15)</l>
+<l>closing_circle (RegionDilation, RegionClosing, 2.5)</l>
+<l>erosion_rectangle1 (RegionClosing, RegionErosion, 1, 1)</l>
+<l>connection (RegionErosion, ConnectedRegions)</l>
+<c>* 提取竖直方向最大高度的一条边</c>
+<l>gen_empty_obj (ObjectEdge)</l>
+<l>select_shape (ConnectedRegions, h_ER_sRegions, 'height', 'and',\
+             ( h_row/100)*Z2_L_height_max, 2*h_row)</l>
+<l>select_shape_std (h_ER_sRegions, h_ER_sRegions, 'max_area', 70)</l>
+<l>count_obj (h_ER_sRegions, EdgeNum1) </l>
+<c></c>
+<c>* 不检测单边</c>
+<l>* EdgeNum1:=0</l>
+<c></c>
+<l>if (EdgeNum1&gt;0)</l>
+<l>    concat_obj(ObjectEdge,h_ER_sRegions,ObjectEdge) </l>
+<l>endif</l>
+<c>* 提取竖直方向高度比较大的2条边</c>
+<l>select_shape (ConnectedRegions, h_sRegions, 'height', 'and',\
+              (h_row/100)*Z2_L_height_min_,2*h_row)</l>
+<c>*判断2条特征线的距离宽度</c>
+<l>count_obj (h_sRegions, EdgeNumT)</l>
+<c></c>
+<c>* 汇流条宽度</c>
+<l>WMin_L:=cr_w*0.363</l>
+<c>* 判断2个区域的间距</c>
+<l>WMax_L:=cr_w*0.6</l>
+<c>* 缺陷区域</c>
+<l>if (EdgeNumT&gt;1)</l>
+<l>    smallest_rectangle1 (h_sRegions, Row1_temp, Column1_temp, Row2_temp, Column2_temp)</l>
+<l>    temp_L:=Row2_temp-Row1_temp</l>
+<c>    * 删选最长的2个</c>
+<c>    * 够叼：提取高度最高的和次高的特征</c>
+<l>    gen_empty_obj (EdgeObject)</l>
+<l>    for t := 1 to 2 by 1</l>
+<l>        try</l>
+<l>            tuple_max (temp_L, TEMP_Lmax)</l>
+<c>            *获取最大值的位置</c>
+<l>            tuple_find (temp_L, TEMP_Lmax, Indices)</l>
+<c>            *删除索引位置的值</c>
+<l>            tuple_remove (temp_L, Indices, temp_L)</l>
+<l>            select_shape (h_sRegions, SelectedRegions, 'height', 'and', TEMP_Lmax, 999999)</l>
+<l>            union2 (EdgeObject, SelectedRegions, EdgeObject)</l>
+<l>        catch (Exception)</l>
+<c>            * 两个一样长时可能报错，不用处理</c>
+<l>        endtry </l>
+<l>    endfor</l>
+<l>    union1 (EdgeObject, UnionRegion)</l>
+<l>    closing_rectangle1 (UnionRegion, RegionClosing_er, cr_w*0.5, 1)</l>
+<c>    * 获取中间部分区域计算</c>
+<l>    smallest_rectangle1 (RegionClosing_er, Row18, Column18, Row28, Column28)</l>
+<l>    smallest_rectangle2 (RegionClosing_er, Row7, Column7, Phi, Length1, Length2)</l>
+<l>    gen_rectangle2 (Rectangle3, Row7, Column7, rad(90), 0.1, (Column28-Column18)/2)</l>
+<l>    smallest_rectangle2 (Rectangle3, Row8, Column8, Phi1, Length11, Length21)</l>
+<l>    WLenght:=Length11*2</l>
+<l>    if (WLenght&gt;WMin_L and WLenght&lt;WMax_L)</l>
+<l>        EdgeNum2:=1</l>
+<l>        concat_obj(ObjectEdge,UnionRegion,ObjectEdge) </l>
+<l>    else</l>
+<l>        EdgeNum2:=0</l>
+<l>    endif</l>
+<l>else</l>
+<l>    EdgeNum2:=0   </l>
+<l>endif</l>
+<l>* stop ()</l>
+<l>return ()</l>
+</body>
+<docu id="Weld_Edge_Length_JK">
+<parameters>
+<parameter id="EdgeNum1"/>
+<parameter id="EdgeNum2"/>
+<parameter id="ImageReduced"/>
+<parameter id="ObjectEdge"/>
+<parameter id="Rectangle1"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Weld_Rosin_Joint_JK">
+<interface>
+<io>
+<par name="ImageReduced" base_type="iconic" dimension="0"/>
+<par name="Rectangle1" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="ObjectRJ" base_type="iconic" dimension="0"/>
+</oo>
+<oc>
+<par name="RJNum" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<c>* 计算焊点的高度和宽度</c>
+<l>gen_empty_obj (ObjectRJ)</l>
+<l>smallest_rectangle1 (Rectangle1, Row1, Column1, Row2, Column2)</l>
+<l>h_row := Row2-Row1</l>
+<l>cr_w := Column2-Column1</l>
+<c></c>
+<c>* BB 查找锡流失或虚焊</c>
+<l>mean_image (ImageReduced, ImageMean, 5, 5)</l>
+<l>invert_image (ImageMean, ImageInvert)</l>
+<l>intensity (Rectangle1, ImageInvert, Mean, Deviation)</l>
+<l>m_thresh:=Mean-Deviation</l>
+<l>dyn_threshold (ImageMean, ImageInvert, RegionDynThresh1, m_thresh, 'dark')</l>
+<c></c>
+<l>closing_circle (RegionDynThresh1, RegionClosing, 3.5) </l>
+<l>gen_rectangle1 (Rectangle, Row1-7, Column1, Row2, Column2)</l>
+<l>intersection (Rectangle, RegionClosing, RegionIntersection1)</l>
+<l>closing_rectangle1 (RegionIntersection1, RegionClosing3_w, cr_w*0.1, 1)</l>
+<l>union2 (RegionClosing, RegionClosing3_w, RegionUnion3_w)</l>
+<c>* 获取分析区域，面积10%</c>
+<l>area_center (Rectangle1, Area, Row, Column)</l>
+<l>PArea:=Area*0.06</l>
+<c>*检查包裹度</c>
+<l>connection (RegionUnion3_w, ConnectedRegions)</l>
+<l>select_shape (ConnectedRegions, dw_SRegions, \
+              ['area','height'], 'and', [PArea, 50], [999999999,9999])</l>
+<l>count_obj (dw_SRegions, RJNumber)</l>
+<c></c>
+<c>* 小矩形框面积的百分数</c>
+<l>Z2_r1area:=23</l>
+<c>* 判断左右黑色区域数量</c>
+<c>* 检测等级 （2级严 1级松）</c>
+<l>Z2_r1_number:=2</l>
+<c>* 左右矩形的高度</c>
+<l>Z2_r1_hrow:=80.000000</l>
+<c>* 左右矩形的宽度</c>
+<l>Z2_r1_crw:=22.500000</l>
+<c></c>
+<c></c>
+<c></c>
+<c>*判断宽度包裹宽度</c>
+<l>if (RJNumber&gt;0)</l>
+<l>    gen_rectangle1 (RectLeft, Row2-h_row * (Z2_r1_hrow/100), Column1, \
+                    Row2, Column1+(cr_w*Z2_r1_crw/100))</l>
+<l>    gen_rectangle1 (RectRight, Row2-h_row * (Z2_r1_hrow/100), Column2-(cr_w*Z2_r1_crw/100),\
+                    Row2, Column2)</l>
+<l>*     gen_rectangle1 (RectLeft, Row2-h_row * Z2_r1_hrow, Column1, Row2, Column1+cr_w*Z2_r1_crw)</l>
+<l>*     gen_rectangle1 (RectRight, Row2-h_row * Z2_r1_hrow, Column2-cr_w*Z2_r1_crw, Row2, Column2)</l>
+<c>    </c>
+<l>    union2 (RectLeft, RectRight, RegionUnion2)</l>
+<l>*     stop ()</l>
+<c>    *上区域</c>
+<l>    intersection (RegionUnion2, dw_SRegions, RegionDifference3)</l>
+<l>    closing_rectangle1 (RegionDifference3, RegionClosing3, 1, h_row*0.21)</l>
+<l>    fill_up (RegionClosing3, RegionFillUp2)</l>
+<l>    connection (RegionFillUp2, ConnectedRegions6)</l>
+<c>    *左右单个方块的面积</c>
+<l>    area_center (RectLeft, Area, Row3, Column3)</l>
+<l>    LR_erArea:=Area*(Z2_r1area/100.00)</l>
+<l>    select_shape (ConnectedRegions6,lr_SRegions2, \
+                  ['area','height'],'and', [LR_erArea, h_row*0.23], [999999999,9999])</l>
+<l>    count_obj (lr_SRegions2, lr_erNumber2)</l>
+<c>    *判断左右黑色区域数量  </c>
+<l>    if (lr_erNumber2&lt;Z2_r1_number)</l>
+<l>        RJNum:=1</l>
+<l>        union2 (Rectangle1, lr_SRegions2, LR_SRegionsX) </l>
+<l>        concat_obj (RectLeft, RectRight, ObjectRJ)</l>
+<l>    else</l>
+<l>        RJNum:=0</l>
+<l>    endif</l>
+<l>else</l>
+<c>    * 新增20180708</c>
+<l>    RJNum:=0</l>
+<l>endif</l>
+<l>* stop ()</l>
+<l>return ()</l>
+</body>
+<docu id="Weld_Rosin_Joint_JK">
+<parameters>
+<parameter id="ImageReduced"/>
+<parameter id="ObjectRJ"/>
+<parameter id="RJNum"/>
+<parameter id="Rectangle1"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Weld_Loss_Area_JK">
+<interface>
+<io>
+<par name="ImageReduced" base_type="iconic" dimension="0"/>
+<par name="Rectangle1" base_type="iconic" dimension="0"/>
+</io>
+<oc>
+<par name="LSNum" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<c>* 本算子用来计算焊锡的包裹度</c>
+<l>smallest_rectangle1 (Rectangle1, Row1, Column1, Row2, Column2)</l>
+<c>* 焊点检测区域的高度和宽度</c>
+<l>h_row := Row2-Row1</l>
+<l>cr_w := Column2-Column1  </l>
+<c>* 焊点区域的面积</c>
+<l>HHArea:=h_row*cr_w</l>
+<c></c>
+<l>mean_image (ImageReduced, ImageMean, 5, 5)</l>
+<l>invert_image (ImageMean, ImageInvert)</l>
+<c>* 自动阈值分割</c>
+<l>intensity (Rectangle1, ImageInvert, Mean, Deviation)</l>
+<l>m_threshold:=Mean-Deviation</l>
+<l>dyn_threshold (ImageMean, ImageInvert, RegionDynThresh, m_threshold, 'dark')</l>
+<l>closing_circle (RegionDynThresh, RegionClosing, 3.5)</l>
+<c></c>
+<c>* 此处矩形暂时不明是做什么的</c>
+<l>gen_rectangle1 (Rectangle2, Row1-7, Column1, Row2, Column2)</l>
+<l>intersection (Rectangle2, RegionClosing, RegionIntersection)</l>
+<l>closing_rectangle1 (RegionIntersection, ClosingRegion, cr_w*0.1, 1)</l>
+<l>union2 (RegionClosing, ClosingRegion, RegionUnion)</l>
+<c></c>
+<c>* 获取分析区域，面积6%</c>
+<l>area_center (Rectangle1, Area, Row, Column)</l>
+<l>BGArea:=Area*0.06</l>
+<c>*检查包裹度</c>
+<l>connection (RegionUnion, ConnectedRegions)</l>
+<l>select_shape (ConnectedRegions, SRegions, \
+              ['area','height'], 'and', \
+              [BGArea, 50], \
+              [999999999,9999])</l>
+<c></c>
+<l>* stop ()</l>
+<l>gen_rectangle1 (Rectangle3, Row1, Column1, Row1+31, Column2)</l>
+<c>*判断焊锡包裹度</c>
+<c>*拟合上面的区域</c>
+<l>intersection (Rectangle3, RegionClosing, IntersectionRegion)</l>
+<c></c>
+<l>closing_rectangle1 (IntersectionRegion, RegionsClosing, cr_w*0.5, 1)</l>
+<l>union2 (RegionsClosing, SRegions, RegionsUnion)</l>
+<c></c>
+<l>fill_up (RegionsUnion, RegionFillUp)</l>
+<l>difference (RegionFillUp, RegionsUnion, RegionsIntersection)</l>
+<l>union1 (RegionsIntersection, UnionRegions)</l>
+<l>connection (UnionRegions, ConnectedRegions)</l>
+<c>******xxxxxxx******20180327上</c>
+<c>* E</c>
+<c>* 焊锡包裹面积</c>
+<l>Z2_r3area:=0.19</l>
+<c>* 焊锡包裹宽度系数</c>
+<l>Z2_r3_crw_min:=0.1</l>
+<l>Z2_r3_crw_max:=0.5</l>
+<c>* 焊锡包裹高度系数</c>
+<l>Z2_r3_hrow:=0.56</l>
+<c>******xxxxxxx******20180327下</c>
+<l>select_shape (ConnectedRegions, dh_Sregion, \
+              ['area','width','height'], 'and', \
+              [h_row*cr_w*Z2_r3area,cr_w*Z2_r3_crw_min,h_row*Z2_r3_hrow],\
+              [h_row*cr_w,cr_w*Z2_r3_crw_max,(h_row+1)])</l>
+<l>count_obj (dh_Sregion, LSNum)</l>
+<l>return ()</l>
+</body>
+<docu id="Weld_Loss_Area_JK">
+<parameters>
+<parameter id="ImageReduced"/>
+<parameter id="LSNum"/>
+<parameter id="Rectangle1"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Pure_Black_Welding_JK">
+<interface>
+<io>
+<par name="ImageReduced1" base_type="iconic" dimension="0"/>
+<par name="Rectangle1" base_type="iconic" dimension="0"/>
+</io>
+<oc>
+<par name="PBNum" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<l>dev_display (ImageReduced1)</l>
+<l>dev_display (Rectangle1)</l>
+<c>* 提取最大黑色面积</c>
+<l>binary_threshold (ImageReduced1, RegionBack, 'max_separability', 'dark',Threshold)</l>
+<l>connection (RegionBack, ConnectedRegions)</l>
+<l>select_shape_std (ConnectedRegions, SelectedRegions, 'max_area', 70)</l>
+<l>fill_up (SelectedRegions, RegionFillUp)</l>
+<c>* 封闭最大黑色区域</c>
+<l>shape_trans (RegionFillUp, RegionTrans, 'convex')</l>
+<c>* 提取黑色面积中白色区域</c>
+<l>reduce_domain (ImageReduced1,  RegionTrans, ImageReduced)</l>
+<l>binary_threshold (ImageReduced, RegionWhite, 'max_separability', 'light',Threshold)</l>
+<l>connection (RegionWhite, RegionsConnected)</l>
+<l>select_shape (RegionsConnected, RegionsSelected, 'area', 'and', 590, 99999999)</l>
+<c>* 黑白区域作比较</c>
+<l>area_center (SelectedRegions, AreaBack, Row, Column)</l>
+<l>area_center (RegionsSelected, AreaWhite, Row, Column)</l>
+<l>PreArea:=(AreaWhite+0.0001)/AreaBack</l>
+<l>if (PreArea*100&lt;10)</l>
+<c>   * 有存黑色缺陷</c>
+<l>*     PBNum:=1 </l>
+<l>    PBNum:=0 </l>
+<l>else</l>
+<c>    * 无缺陷</c>
+<l>   PBNum:=0 </l>
+<l>endif</l>
+<c></c>
+<c></c>
+<c></c>
+<l>* stop ()    </l>
+<l>return ()</l>
+</body>
+<docu id="Pure_Black_Welding_JK">
+<parameters>
+<parameter id="ImageReduced1"/>
+<parameter id="PBNum"/>
+<parameter id="Rectangle1"/>
+</parameters>
+</docu>
+</procedure>
+<procedure name="Weld_Pretreatment">
+<interface>
+<io>
+<par name="ImageScaled2" base_type="iconic" dimension="0"/>
+</io>
+<oo>
+<par name="UnionRegion" base_type="iconic" dimension="0"/>
+</oo>
+<oc>
+<par name="Number" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<body>
+<l>binary_threshold (ImageScaled2, RegionScaled2, 'max_separability', 'dark', UsedThresh)</l>
+<l>fill_up (RegionScaled2, FillUp2)</l>
+<l>difference (FillUp2, RegionScaled2, RegionDifference)</l>
+<l>connection (RegionDifference, ConnectedRegions)</l>
+<l>select_shape ( ConnectedRegions, SelectedRegions, 'area', 'and', 88000, 9999999999999)</l>
+<l>union1 (SelectedRegions, RegionUnion)</l>
+<l>shape_trans (RegionUnion, RegionTrans, 'rectangle1')</l>
+<l>smallest_rectangle1 (RegionTrans, Row11, Column11, Row21, Column21)</l>
+<l>smallest_circle (RegionTrans, Row, Column, Radius)</l>
+<l>gen_rectangle2 (Rectangle, Row, Column, 0,(Column21-Column11)/2, (Row21-Row11)/8)</l>
+<l>intersection (Rectangle,RegionUnion, RegionIntersection)</l>
+<l>smallest_rectangle1 (RegionIntersection, Row12, Column12, Row22, Column22)</l>
+<c></c>
+<l>gen_rectangle1 (Rectangle2, Row21-200, Column12+0, Row21, Column22-0)</l>
+<l>difference (Rectangle2,RegionScaled2, DifferenceRegion1)</l>
+<l>connection (DifferenceRegion1, ConnectedRegions1)</l>
+<l>select_shape (ConnectedRegions1, SelectedRegions1, 'width', 'and', 185, 250)</l>
+<l>count_obj (SelectedRegions1, Num)</l>
+<l>gen_empty_obj (RectObject)</l>
+<l>for j := 1 to Num by 1</l>
+<l>    select_obj (SelectedRegions1, ObjectSelected, j)</l>
+<l>    smallest_rectangle1 (ObjectSelected, Row13, Column13, Row23, Column23)</l>
+<l>    gen_rectangle1 (Rectangle3, Row23-300, Column13+10, Row23, Column23-5)</l>
+<l>    concat_obj (Rectangle3, RectObject,RectObject)   </l>
+<l>endfor</l>
+<l>union1 (RectObject, UnionRegion)</l>
+<l>connection (UnionRegion, RegionsConnected)</l>
+<l>count_obj (RegionsConnected, Number)</l>
+<l>return ()</l>
+</body>
+<docu id="Weld_Pretreatment">
+<parameters>
+<parameter id="ImageScaled2"/>
+<parameter id="Number"/>
+<parameter id="UnionRegion"/>
+</parameters>
+</docu>
+</procedure>
+</hdevelop>

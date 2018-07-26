@@ -1,0 +1,78 @@
+
+WAIT TICKS, 0, 100
+SAP 6, 0, 250
+SAP 140, 0, 7
+SAP 6, 0, 250
+
+SAP 4, 1, 2047  //set max. positioning speed
+//GP设定
+RefStatus = 24//回参考点状态
+
+//scale 1600
+PushDown  = 0//下压指令
+PollUp  = 1//下压指令
+DownStatus =21//下压状态
+DownVel =2  //下压速度
+MoveError = 3//上提补偿
+SGP DownVel,2,1800
+SGP MoveError ,2,-1000
+SGP PollUp,2,1
+SGP PushDown,2,0
+
+
+//回正限位
+
+UpRun:		GGP   PollUp ,2  //运行开关
+			JC ZE, UpRun
+			SGP PollUp,2,0
+RefAction:	SGP DownStatus ,2,0	
+        	
+		GIO 2, 0
+        	JC NZ, refSignal
+		GGP DownVel ,2
+		CALC MUL, -1
+		ROL   1, 0
+		AAP 2, 1
+                
+		//AAP   2, 1
+			//WAIT TICKS, 0, 50
+refSignal: 	GIO 2, 0
+        	JC ZE, refSignal
+		MST 1，0
+		
+SAP 1, 1, 0    //set actual position
+		MVP REL, 1, 100
+		
+		SGP DownStatus ,2,1
+
+
+		
+
+
+
+MAINLOOP:	GGP   PushDown  ,2  //下行开关
+		JC NZ, DownRun
+		GGP   PollUp  ,2  //上行开关
+		JC NZ, UpRun
+		JA MAINLOOP
+		
+DownRun:	SGP DownStatus ,2,0
+		SGP PushDown,2,0
+		GGP DownVel ,2
+		
+       ROR   1, 0
+		AAP 2, 1
+		//WAIT TICKS, 0, 100
+DownSignal: 	GIO 3, 0
+        	JC NZ, DownStop
+			
+			GIO 1, 0
+        	JC ZE, DownSignal
+DownStop:	MST 1，0	
+			SAP 1, 1, 0 
+		
+			SGP DownStatus ,2,1
+			JA MAINLOOP
+
+
+

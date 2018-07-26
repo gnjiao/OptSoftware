@@ -1,0 +1,28 @@
+//TMCL disassembly at 03-21-2017 14:33:16
+          WAIT TICKS, 0, 100
+          SAP 6, 0, 250
+          SAP 140, 0, 7
+	  SAP 4, 1, 50
+	  SAP 4, 0, 50
+	  SAP 4, 2, 50
+          SIO 2, 2, 0
+          SIO 4, 2, 0
+          WAIT TICKS, 0, 100
+          ROR 1, -30
+          ROL 2, -30
+          WAIT TICKS, 0, 400
+          MST 2
+          MST 1
+          SIO 2, 2, 1
+          SIO 4, 2, 1
+          WAIT TICKS, 0, 100
+          SIO 2, 2, 0
+          SIO 4, 2, 0
+refSignal: 	GIO 1, 0
+          JC ZE, refSignal
+	  SAP 1, 1, 0 
+	  	
+SAP 1, 2, 0    //set actual position
+          STOP    
+
+
